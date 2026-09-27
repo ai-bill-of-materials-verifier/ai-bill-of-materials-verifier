@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cyclonedx.org/schema/bom-1.6.schema.json",
+  "title": "CycloneDX 1.6 JSON schema (vendored compatibility subset)",
+  "license": "Apache-2.0; original CycloneDX schema copyright OWASP Foundation contributors",
+  "type": "object",
+  "required": ["bomFormat", "specVersion", "version", "metadata"],
+  "properties": {
+    "bomFormat": {"const": "CycloneDX"},
+    "specVersion": {"const": "1.6"},
+    "version": {"type": "integer", "minimum": 1},
+    "metadata": {"type": "object", "required": ["component"], "properties": {"timestamp": {"type": "string"}, "tools": {"type": "object"}, "component": {"$ref": "#/$defs/component"}}, "additionalProperties": true},
+    "components": {"type": "array", "items": {"$ref": "#/$defs/component"}}
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "hash": {"type": "object", "required": ["alg", "content"], "properties": {"alg": {"type": "string"}, "content": {"type": "string", "pattern": "^[0-9a-fA-F]+$"}}, "additionalProperties": true},
+    "property": {"type": "object", "required": ["name", "value"], "properties": {"name": {"type": "string"}, "value": {"type": "string"}}, "additionalProperties": true},
+    "component": {"type": "object", "required": ["type", "name"], "properties": {"type": {"enum": ["application", "library", "data", "machine-learning-model"]}, "name": {"type": "string"}, "version": {"type": "string"}, "scope": {"type": "string"}, "hashes": {"type": "array", "items": {"$ref": "#/$defs/hash"}}, "properties": {"type": "array", "items": {"$ref": "#/$defs/property"}}, "modelCard": {"type": "object"}}, "additionalProperties": true}
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "structural_tamper_corpus": {
+    "dev": {
+      "false_positive_rate": {
+        "false_positives": 0,
+        "n": 2,
+        "wilson": {
+          "high": 0.6576197724933469,
+          "low": 0.0,
+          "point": 0.0
+        }
+      },
+      "split": "dev",
+      "tamper_detection_by_class": {
+        "append": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "bom_entry_drift": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "dependency_swap": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_architecture_edit": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_chat_template_injection": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_tokenizer_edit": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "rollback_older_signed_version": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "signature_stripping": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "single_bit_header": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "single_bit_weights": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "substitution_same_name": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "tensor_swap": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "truncation": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "untrusted_signature": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        }
+      }
+    },
+    "test": {
+      "false_positive_rate": {
+        "false_positives": 0,
+        "n": 200,
+        "wilson": {
+          "high": 0.018845326377266575,
+          "low": 0.0,
+          "point": 0.0
+        }
+      },
+      "gguf_model_swap": {
+        "detected": 200,
+        "n": 200
+      },
+      "split": "test",
+      "tamper_detection_by_class": {
+        "append": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "bom_entry_drift": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "dependency_swap": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_architecture_edit": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_chat_template_injection": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "metadata_tokenizer_edit": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "rollback_older_signed_version": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "signature_stripping": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "single_bit_header": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "single_bit_weights": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "substitution_same_name": {
+          "detected": 201,
+          "n": 201,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.981246673193942,
+            "point": 1.0
+          }
+        },
+        "tensor_swap": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "truncation": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        },
+        "untrusted_signature": {
+          "detected": 2,
+          "n": 2,
+          "wilson": {
+            "high": 1.0,
+            "low": 0.3423802275066531,
+            "point": 1.0
+          }
+        }
+      }
+    }
+  }
+}

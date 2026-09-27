@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+*.pem
+*.sig
+.bill-of-materials-cache.json*
+specs/tlc-*.out
+specs/*_TTrace_*
+.bench-work/
+states/
+*.egg-info/

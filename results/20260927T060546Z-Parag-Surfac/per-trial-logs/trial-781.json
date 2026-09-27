@@ -1,0 +1,1 @@
+{"alg":"ecdsa-p256-sha256","checked_chunks":0,"chunk_size":0,"elapsed_ms":0.2939,"measurement_kind":"direct","mode":"signature-verify","ok":true,"page_cache":"not applicable","size_bytes":96,"thread_count":0,"throughput_gbps":"","timestamp_utc":"2026-09-27T06:29:27.015527+00:00","trial":781}

@@ -1,0 +1,16 @@
+{
+  "naive": {
+    "depth": 9,
+    "distinct_states": 1226,
+    "states_generated": 3105,
+    "states_left": 792,
+    "status": "counterexample"
+  },
+  "safe": {
+    "depth": 14,
+    "distinct_states": 28107,
+    "states_generated": 255074,
+    "states_left": 0,
+    "status": "ok"
+  }
+}

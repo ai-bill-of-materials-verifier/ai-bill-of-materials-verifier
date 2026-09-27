@@ -1,0 +1,1 @@
+{"alg":"sha256","checked_chunks":64,"chunk_size":16777216,"elapsed_ms":4840.6652,"measurement_kind":"direct","mode":"full-tamper-detection","ok":true,"page_cache":"warm page cache; direct in-place chunk tamper and FULL verify","size_bytes":1073741824,"tamper_fraction":0.015625,"thread_count":12,"throughput_gbps":"","timestamp_utc":"2026-09-27T06:28:43.948425+00:00","trial":746}

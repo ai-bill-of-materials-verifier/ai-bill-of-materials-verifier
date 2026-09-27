@@ -1,0 +1,1 @@
+CycloneDX 1.6 JSON Schema is published by OWASP Foundation contributors under Apache-2.0. This repository vendors a compatibility subset for offline validation tests.

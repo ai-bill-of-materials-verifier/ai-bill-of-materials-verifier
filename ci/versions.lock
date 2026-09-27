@@ -1,0 +1,8 @@
+python=3.12
+python-image=python:3.12-slim
+ruff>=0.8
+pytest>=8
+mypy>=1.13
+cryptography>=42
+jsonschema>=4.22
+

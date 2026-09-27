@@ -1,0 +1,911 @@
+trial,timestamp_utc,size_bytes,chunk_size,mode,alg,thread_count,ok,elapsed_ms,throughput_gbps,checked_chunks,page_cache,measurement_kind,tamper_fraction,effective_tamper_fraction,theory
+1,2026-09-26T07:11:59.154768+00:00,67108864,16777216,full,blake3,1,True,185.593935,0.3367566941236523,4,warm page cache; unprivileged container did not drop caches,direct,,,
+2,2026-09-26T07:11:59.340410+00:00,67108864,16777216,full,blake3,1,True,220.170841,0.28387046947783606,4,warm page cache; unprivileged container did not drop caches,direct,,,
+3,2026-09-26T07:11:59.560625+00:00,67108864,16777216,full,blake3,1,True,188.03576,0.33238358490959374,4,warm page cache; unprivileged container did not drop caches,direct,,,
+4,2026-09-26T07:11:59.748702+00:00,67108864,16777216,full,blake3,1,True,212.915882,0.29354315616530663,4,warm page cache; unprivileged container did not drop caches,direct,,,
+5,2026-09-26T07:11:59.961658+00:00,67108864,16777216,full,blake3,1,True,194.968064,0.32056532089275913,4,warm page cache; unprivileged container did not drop caches,direct,,,
+6,2026-09-26T07:12:00.156727+00:00,67108864,16777216,streaming,blake3,1,True,403.689417,0.15482199276975347,4,warm page cache; unprivileged container did not drop caches,direct,,,
+7,2026-09-26T07:12:00.560453+00:00,67108864,16777216,streaming,blake3,1,True,286.130298,0.21843195368286375,4,warm page cache; unprivileged container did not drop caches,direct,,,
+8,2026-09-26T07:12:00.846818+00:00,67108864,16777216,streaming,blake3,1,True,296.73104,0.21062845329561747,4,warm page cache; unprivileged container did not drop caches,direct,,,
+9,2026-09-26T07:12:01.143586+00:00,67108864,16777216,streaming,blake3,1,True,310.938807,0.20100418022122277,4,warm page cache; unprivileged container did not drop caches,direct,,,
+10,2026-09-26T07:12:01.454570+00:00,67108864,16777216,streaming,blake3,1,True,387.146443,0.1614376190975362,4,warm page cache; unprivileged container did not drop caches,direct,,,
+11,2026-09-26T07:12:02.027126+00:00,67108864,16777216,full,blake3,4,True,147.183764,0.4246392285496925,4,warm page cache; unprivileged container did not drop caches,direct,,,
+12,2026-09-26T07:12:02.174352+00:00,67108864,16777216,full,blake3,4,True,107.148311,0.5833036416224984,4,warm page cache; unprivileged container did not drop caches,direct,,,
+13,2026-09-26T07:12:02.281562+00:00,67108864,16777216,full,blake3,4,True,110.696026,0.5646092480320838,4,warm page cache; unprivileged container did not drop caches,direct,,,
+14,2026-09-26T07:12:02.392297+00:00,67108864,16777216,full,blake3,4,True,112.280002,0.5566440941103653,4,warm page cache; unprivileged container did not drop caches,direct,,,
+15,2026-09-26T07:12:02.504636+00:00,67108864,16777216,full,blake3,4,True,150.668669,0.4148174959984547,4,warm page cache; unprivileged container did not drop caches,direct,,,
+16,2026-09-26T07:12:02.655453+00:00,67108864,16777216,streaming,blake3,4,True,180.155791,0.34692195933907005,4,warm page cache; unprivileged container did not drop caches,direct,,,
+17,2026-09-26T07:12:02.835650+00:00,67108864,16777216,streaming,blake3,4,True,141.873742,0.4405325405458045,4,warm page cache; unprivileged container did not drop caches,direct,,,
+18,2026-09-26T07:12:02.977620+00:00,67108864,16777216,streaming,blake3,4,True,108.038765,0.5784960611128793,4,warm page cache; unprivileged container did not drop caches,direct,,,
+19,2026-09-26T07:12:03.085713+00:00,67108864,16777216,streaming,blake3,4,True,116.558445,0.5362116833319113,4,warm page cache; unprivileged container did not drop caches,direct,,,
+20,2026-09-26T07:12:03.202315+00:00,67108864,16777216,streaming,blake3,4,True,105.539231,0.5921968485823059,4,warm page cache; unprivileged container did not drop caches,direct,,,
+21,2026-09-26T07:12:03.641874+00:00,67108864,16777216,full,blake3,8,True,60.817464,1.0276653429679343,4,warm page cache; unprivileged container did not drop caches,direct,,,
+22,2026-09-26T07:12:03.702738+00:00,67108864,16777216,full,blake3,8,True,114.365464,0.5464936512652107,4,warm page cache; unprivileged container did not drop caches,direct,,,
+23,2026-09-26T07:12:03.817149+00:00,67108864,16777216,full,blake3,8,True,57.836146,1.0806390868437188,4,warm page cache; unprivileged container did not drop caches,direct,,,
+24,2026-09-26T07:12:03.875031+00:00,67108864,16777216,full,blake3,8,True,152.364464,0.4102006357597924,4,warm page cache; unprivileged container did not drop caches,direct,,,
+25,2026-09-26T07:12:04.027439+00:00,67108864,16777216,full,blake3,8,True,56.180658,1.112482520229649,4,warm page cache; unprivileged container did not drop caches,direct,,,
+26,2026-09-26T07:12:04.083729+00:00,67108864,16777216,streaming,blake3,8,True,104.49925,0.5980904169168678,4,warm page cache; unprivileged container did not drop caches,direct,,,
+27,2026-09-26T07:12:04.188273+00:00,67108864,16777216,streaming,blake3,8,True,112.620261,0.5549623082475363,4,warm page cache; unprivileged container did not drop caches,direct,,,
+28,2026-09-26T07:12:04.300961+00:00,67108864,16777216,streaming,blake3,8,True,128.663448,0.4857634469736891,4,warm page cache; unprivileged container did not drop caches,direct,,,
+29,2026-09-26T07:12:04.429817+00:00,67108864,16777216,streaming,blake3,8,True,128.860582,0.4850203144356433,4,warm page cache; unprivileged container did not drop caches,direct,,,
+30,2026-09-26T07:12:04.558727+00:00,67108864,16777216,streaming,blake3,8,True,171.028106,0.3654370118558174,4,warm page cache; unprivileged container did not drop caches,direct,,,
+31,2026-09-26T07:12:05.030112+00:00,67108864,16777216,full,blake3,12,True,58.230914,1.0733130515519642,4,warm page cache; unprivileged container did not drop caches,direct,,,
+32,2026-09-26T07:12:05.088394+00:00,67108864,16777216,full,blake3,12,True,66.374428,0.941627700354721,4,warm page cache; unprivileged container did not drop caches,direct,,,
+33,2026-09-26T07:12:05.154818+00:00,67108864,16777216,full,blake3,12,True,56.100544,1.1140711933203358,4,warm page cache; unprivileged container did not drop caches,direct,,,
+34,2026-09-26T07:12:05.210964+00:00,67108864,16777216,full,blake3,12,True,72.283116,0.8646555856833841,4,warm page cache; unprivileged container did not drop caches,direct,,,
+35,2026-09-26T07:12:05.283299+00:00,67108864,16777216,full,blake3,12,True,58.962178,1.060001548789463,4,warm page cache; unprivileged container did not drop caches,direct,,,
+36,2026-09-26T07:12:05.342398+00:00,67108864,16777216,streaming,blake3,12,True,217.247248,0.2876906408499131,4,warm page cache; unprivileged container did not drop caches,direct,,,
+37,2026-09-26T07:12:05.559698+00:00,67108864,16777216,streaming,blake3,12,True,174.309293,0.3585580488815361,4,warm page cache; unprivileged container did not drop caches,direct,,,
+38,2026-09-26T07:12:05.734069+00:00,67108864,16777216,streaming,blake3,12,True,151.6877,0.41203077111723624,4,warm page cache; unprivileged container did not drop caches,direct,,,
+39,2026-09-26T07:12:05.885814+00:00,67108864,16777216,streaming,blake3,12,True,124.048481,0.5038352706632497,4,warm page cache; unprivileged container did not drop caches,direct,,,
+40,2026-09-26T07:12:06.009911+00:00,67108864,16777216,streaming,blake3,12,True,128.537463,0.48623956425839837,4,warm page cache; unprivileged container did not drop caches,direct,,,
+41,2026-09-26T07:12:06.338837+00:00,67108864,16777216,full,sha256,1,True,68.738299,0.9092456593957904,4,warm page cache; unprivileged container did not drop caches,direct,,,
+42,2026-09-26T07:12:06.407625+00:00,67108864,16777216,full,sha256,1,True,74.967934,0.8336897746175052,4,warm page cache; unprivileged container did not drop caches,direct,,,
+43,2026-09-26T07:12:06.482629+00:00,67108864,16777216,full,sha256,1,True,74.84316,0.8350796519013897,4,warm page cache; unprivileged container did not drop caches,direct,,,
+44,2026-09-26T07:12:06.557507+00:00,67108864,16777216,full,sha256,1,True,118.527065,0.5273057254897858,4,warm page cache; unprivileged container did not drop caches,direct,,,
+45,2026-09-26T07:12:06.665456+00:00,67108864,16777216,full,sha256,1,True,131.372736,0.4757455915358268,4,warm page cache; unprivileged container did not drop caches,direct,,,
+46,2026-09-26T07:12:06.796934+00:00,67108864,16777216,streaming,sha256,1,True,106.272325,0.5881117214665248,4,warm page cache; unprivileged container did not drop caches,direct,,,
+47,2026-09-26T07:12:06.903252+00:00,67108864,16777216,streaming,sha256,1,True,111.371504,0.5611848431174998,4,warm page cache; unprivileged container did not drop caches,direct,,,
+48,2026-09-26T07:12:07.014681+00:00,67108864,16777216,streaming,sha256,1,True,106.08167,0.5891687036978207,4,warm page cache; unprivileged container did not drop caches,direct,,,
+49,2026-09-26T07:12:07.120808+00:00,67108864,16777216,streaming,sha256,1,True,129.096851,0.4841326454972942,4,warm page cache; unprivileged container did not drop caches,direct,,,
+50,2026-09-26T07:12:07.249948+00:00,67108864,16777216,streaming,sha256,1,True,154.344296,0.4049388388152679,4,warm page cache; unprivileged container did not drop caches,direct,,,
+51,2026-09-26T07:12:07.562525+00:00,67108864,16777216,full,sha256,4,True,76.945857,0.8122594566722415,4,warm page cache; unprivileged container did not drop caches,direct,,,
+52,2026-09-26T07:12:07.639511+00:00,67108864,16777216,full,sha256,4,True,82.32493,0.7591867979723761,4,warm page cache; unprivileged container did not drop caches,direct,,,
+53,2026-09-26T07:12:07.721874+00:00,67108864,16777216,full,sha256,4,True,89.400535,0.6991009617559895,4,warm page cache; unprivileged container did not drop caches,direct,,,
+54,2026-09-26T07:12:07.811311+00:00,67108864,16777216,full,sha256,4,True,86.623856,0.7215102500170392,4,warm page cache; unprivileged container did not drop caches,direct,,,
+55,2026-09-26T07:12:07.897997+00:00,67108864,16777216,full,sha256,4,True,77.448449,0.8069884007619055,4,warm page cache; unprivileged container did not drop caches,direct,,,
+56,2026-09-26T07:12:07.976372+00:00,67108864,16777216,streaming,sha256,4,True,120.000247,0.5208322612869288,4,warm page cache; unprivileged container did not drop caches,direct,,,
+57,2026-09-26T07:12:08.096556+00:00,67108864,16777216,streaming,sha256,4,True,113.187388,0.5521816617943335,4,warm page cache; unprivileged container did not drop caches,direct,,,
+58,2026-09-26T07:12:08.209791+00:00,67108864,16777216,streaming,sha256,4,True,126.699726,0.493292305936005,4,warm page cache; unprivileged container did not drop caches,direct,,,
+59,2026-09-26T07:12:08.336532+00:00,67108864,16777216,streaming,sha256,4,True,121.752184,0.5133378141290673,4,warm page cache; unprivileged container did not drop caches,direct,,,
+60,2026-09-26T07:12:08.458327+00:00,67108864,16777216,streaming,sha256,4,True,109.089293,0.5729251540753867,4,warm page cache; unprivileged container did not drop caches,direct,,,
+61,2026-09-26T07:12:08.729218+00:00,67108864,16777216,full,sha256,8,True,85.943148,0.7272249324634932,4,warm page cache; unprivileged container did not drop caches,direct,,,
+62,2026-09-26T07:12:08.815237+00:00,67108864,16777216,full,sha256,8,True,163.112139,0.3831719722589132,4,warm page cache; unprivileged container did not drop caches,direct,,,
+63,2026-09-26T07:12:08.978392+00:00,67108864,16777216,full,sha256,8,True,89.002939,0.7022240018388606,4,warm page cache; unprivileged container did not drop caches,direct,,,
+64,2026-09-26T07:12:09.067433+00:00,67108864,16777216,full,sha256,8,True,102.21639,0.6114479292410933,4,warm page cache; unprivileged container did not drop caches,direct,,,
+65,2026-09-26T07:12:09.169687+00:00,67108864,16777216,full,sha256,8,True,88.11208,0.7093238520756745,4,warm page cache; unprivileged container did not drop caches,direct,,,
+66,2026-09-26T07:12:09.257923+00:00,67108864,16777216,streaming,sha256,8,True,142.304574,0.4391988131035058,4,warm page cache; unprivileged container did not drop caches,direct,,,
+67,2026-09-26T07:12:09.400273+00:00,67108864,16777216,streaming,sha256,8,True,136.770061,0.4569713542790626,4,warm page cache; unprivileged container did not drop caches,direct,,,
+68,2026-09-26T07:12:09.537094+00:00,67108864,16777216,streaming,sha256,8,True,160.294217,0.38990801520930723,4,warm page cache; unprivileged container did not drop caches,direct,,,
+69,2026-09-26T07:12:09.697429+00:00,67108864,16777216,streaming,sha256,8,True,121.758086,0.5133129310196285,4,warm page cache; unprivileged container did not drop caches,direct,,,
+70,2026-09-26T07:12:09.819249+00:00,67108864,16777216,streaming,sha256,8,True,107.08661,0.5836397286271365,4,warm page cache; unprivileged container did not drop caches,direct,,,
+71,2026-09-26T07:12:10.136680+00:00,67108864,16777216,full,sha256,12,True,106.004294,0.5895987571975151,4,warm page cache; unprivileged container did not drop caches,direct,,,
+72,2026-09-26T07:12:10.242722+00:00,67108864,16777216,full,sha256,12,True,98.357466,0.6354372732620013,4,warm page cache; unprivileged container did not drop caches,direct,,,
+73,2026-09-26T07:12:10.341177+00:00,67108864,16777216,full,sha256,12,True,76.165698,0.8205793636920389,4,warm page cache; unprivileged container did not drop caches,direct,,,
+74,2026-09-26T07:12:10.417380+00:00,67108864,16777216,full,sha256,12,True,158.069969,0.3953945230418816,4,warm page cache; unprivileged container did not drop caches,direct,,,
+75,2026-09-26T07:12:10.575492+00:00,67108864,16777216,full,sha256,12,True,106.645782,0.5860522453668163,4,warm page cache; unprivileged container did not drop caches,direct,,,
+76,2026-09-26T07:12:10.682249+00:00,67108864,16777216,streaming,sha256,12,True,190.067995,0.32882969065886136,4,warm page cache; unprivileged container did not drop caches,direct,,,
+77,2026-09-26T07:12:10.872359+00:00,67108864,16777216,streaming,sha256,12,True,149.991515,0.41669023744443145,4,warm page cache; unprivileged container did not drop caches,direct,,,
+78,2026-09-26T07:12:11.022406+00:00,67108864,16777216,streaming,sha256,12,True,282.403105,0.22131484708710977,4,warm page cache; unprivileged container did not drop caches,direct,,,
+79,2026-09-26T07:12:11.304852+00:00,67108864,16777216,streaming,sha256,12,True,177.660679,0.3517942200367252,4,warm page cache; unprivileged container did not drop caches,direct,,,
+80,2026-09-26T07:12:11.482556+00:00,67108864,16777216,streaming,sha256,12,True,209.529567,0.2982872579505689,4,warm page cache; unprivileged container did not drop caches,direct,,,
+81,2026-09-26T07:12:11.692177+00:00,67108864,16777216,sampled-8,blake3,12,True,352.968271,0.17706974007303902,4,warm page cache; unprivileged container did not drop caches,direct,,,
+82,2026-09-26T07:12:12.045452+00:00,67108864,16777216,sampled-8,blake3,12,True,232.80265,0.2684677343664258,4,warm page cache; unprivileged container did not drop caches,direct,,,
+83,2026-09-26T07:12:12.278306+00:00,67108864,16777216,sampled-8,blake3,12,True,427.344948,0.14625187519474314,4,warm page cache; unprivileged container did not drop caches,direct,,,
+84,2026-09-26T07:12:12.705704+00:00,67108864,16777216,sampled-8,blake3,12,True,364.56205,0.17143857952301947,4,warm page cache; unprivileged container did not drop caches,direct,,,
+85,2026-09-26T07:12:13.070314+00:00,67108864,16777216,sampled-8,blake3,12,True,271.867399,0.2298914847086907,4,warm page cache; unprivileged container did not drop caches,direct,,,
+86,2026-09-26T07:12:13.342427+00:00,67108864,16777216,sampled-32,blake3,12,True,318.456108,0.19625938529651316,4,warm page cache; unprivileged container did not drop caches,direct,,,
+87,2026-09-26T07:12:13.660946+00:00,67108864,16777216,sampled-32,blake3,12,True,274.701639,0.22751957442816714,4,warm page cache; unprivileged container did not drop caches,direct,,,
+88,2026-09-26T07:12:13.935704+00:00,67108864,16777216,sampled-32,blake3,12,True,287.839837,0.21713464213780806,4,warm page cache; unprivileged container did not drop caches,direct,,,
+89,2026-09-26T07:12:14.223595+00:00,67108864,16777216,sampled-32,blake3,12,True,331.736307,0.18840265198949116,4,warm page cache; unprivileged container did not drop caches,direct,,,
+90,2026-09-26T07:12:14.555394+00:00,67108864,16777216,sampled-32,blake3,12,True,362.210276,0.17255170308862247,4,warm page cache; unprivileged container did not drop caches,direct,,,
+91,2026-09-26T07:12:14.917777+00:00,67108864,16777216,sampled-128,blake3,12,True,313.729481,0.19921621583277344,4,warm page cache; unprivileged container did not drop caches,direct,,,
+92,2026-09-26T07:12:15.231638+00:00,67108864,16777216,sampled-128,blake3,12,True,391.973633,0.1594495005229089,4,warm page cache; unprivileged container did not drop caches,direct,,,
+93,2026-09-26T07:12:15.623667+00:00,67108864,16777216,sampled-128,blake3,12,True,208.155234,0.3002566824718902,4,warm page cache; unprivileged container did not drop caches,direct,,,
+94,2026-09-26T07:12:15.831883+00:00,67108864,16777216,sampled-128,blake3,12,True,438.137231,0.1426493700554747,4,warm page cache; unprivileged container did not drop caches,direct,,,
+95,2026-09-26T07:12:16.270069+00:00,67108864,16777216,sampled-128,blake3,12,True,203.779007,0.30670480203095696,4,warm page cache; unprivileged container did not drop caches,direct,,,
+96,2026-09-26T07:12:16.473952+00:00,67108864,16777216,cached,blake3,12,True,0.185063,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+97,2026-09-26T07:12:16.474192+00:00,67108864,16777216,cached,blake3,12,True,0.039557,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+98,2026-09-26T07:12:16.474247+00:00,67108864,16777216,cached,blake3,12,True,0.02844,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+99,2026-09-26T07:12:16.474281+00:00,67108864,16777216,cached,blake3,12,True,0.027038,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+100,2026-09-26T07:12:16.474312+00:00,67108864,16777216,cached,blake3,12,True,0.023634,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+101,2026-09-26T07:12:19.113261+00:00,268435456,16777216,full,blake3,1,True,1068.730639,0.2339223662885929,16,warm page cache; unprivileged container did not drop caches,direct,,,
+102,2026-09-26T07:12:20.182034+00:00,268435456,16777216,full,blake3,1,True,874.136512,0.2859965195001487,16,warm page cache; unprivileged container did not drop caches,direct,,,
+103,2026-09-26T07:12:21.056211+00:00,268435456,16777216,full,blake3,1,True,1162.899583,0.21497986898839572,16,warm page cache; unprivileged container did not drop caches,direct,,,
+104,2026-09-26T07:12:22.219187+00:00,268435456,16777216,full,blake3,1,True,1087.599223,0.22986408477785386,16,warm page cache; unprivileged container did not drop caches,direct,,,
+105,2026-09-26T07:12:23.306863+00:00,268435456,16777216,full,blake3,1,True,1003.9592,0.2490141033619693,16,warm page cache; unprivileged container did not drop caches,direct,,,
+106,2026-09-26T07:12:24.310989+00:00,268435456,16777216,streaming,blake3,1,True,915.064676,0.27320473247073523,16,warm page cache; unprivileged container did not drop caches,direct,,,
+107,2026-09-26T07:12:25.226090+00:00,268435456,16777216,streaming,blake3,1,True,1093.173851,0.22869189541197688,16,warm page cache; unprivileged container did not drop caches,direct,,,
+108,2026-09-26T07:12:26.319342+00:00,268435456,16777216,streaming,blake3,1,True,1148.382514,0.2176974979610322,16,warm page cache; unprivileged container did not drop caches,direct,,,
+109,2026-09-26T07:12:27.467769+00:00,268435456,16777216,streaming,blake3,1,True,1097.447959,0.2278012346278371,16,warm page cache; unprivileged container did not drop caches,direct,,,
+110,2026-09-26T07:12:28.565266+00:00,268435456,16777216,streaming,blake3,1,True,1156.496828,0.2161700697721239,16,warm page cache; unprivileged container did not drop caches,direct,,,
+111,2026-09-26T07:12:30.727034+00:00,268435456,16777216,full,blake3,4,True,394.960683,0.6329743965932932,16,warm page cache; unprivileged container did not drop caches,direct,,,
+112,2026-09-26T07:12:31.122079+00:00,268435456,16777216,full,blake3,4,True,389.932273,0.6411369802160489,16,warm page cache; unprivileged container did not drop caches,direct,,,
+113,2026-09-26T07:12:31.512097+00:00,268435456,16777216,full,blake3,4,True,545.623767,0.45819118432940253,16,warm page cache; unprivileged container did not drop caches,direct,,,
+114,2026-09-26T07:12:32.057934+00:00,268435456,16777216,full,blake3,4,True,529.261162,0.47235659434235977,16,warm page cache; unprivileged container did not drop caches,direct,,,
+115,2026-09-26T07:12:32.587264+00:00,268435456,16777216,full,blake3,4,True,433.095995,0.5772392330711809,16,warm page cache; unprivileged container did not drop caches,direct,,,
+116,2026-09-26T07:12:33.020466+00:00,268435456,16777216,streaming,blake3,4,True,671.578297,0.37225741379191707,16,warm page cache; unprivileged container did not drop caches,direct,,,
+117,2026-09-26T07:12:33.692091+00:00,268435456,16777216,streaming,blake3,4,True,629.362157,0.39722756956294086,16,warm page cache; unprivileged container did not drop caches,direct,,,
+118,2026-09-26T07:12:34.321522+00:00,268435456,16777216,streaming,blake3,4,True,626.536208,0.39901923752824836,16,warm page cache; unprivileged container did not drop caches,direct,,,
+119,2026-09-26T07:12:34.948285+00:00,268435456,16777216,streaming,blake3,4,True,536.57273,0.46592006269122177,16,warm page cache; unprivileged container did not drop caches,direct,,,
+120,2026-09-26T07:12:35.484912+00:00,268435456,16777216,streaming,blake3,4,True,735.268161,0.3400120027773106,16,warm page cache; unprivileged container did not drop caches,direct,,,
+121,2026-09-26T07:12:37.183170+00:00,268435456,16777216,full,blake3,8,True,247.463396,1.0102504210360064,16,warm page cache; unprivileged container did not drop caches,direct,,,
+122,2026-09-26T07:12:37.430688+00:00,268435456,16777216,full,blake3,8,True,257.984727,0.9690496135455335,16,warm page cache; unprivileged container did not drop caches,direct,,,
+123,2026-09-26T07:12:37.688729+00:00,268435456,16777216,full,blake3,8,True,320.7676,0.7793804611188909,16,warm page cache; unprivileged container did not drop caches,direct,,,
+124,2026-09-26T07:12:38.009552+00:00,268435456,16777216,full,blake3,8,True,385.003691,0.6493444240772227,16,warm page cache; unprivileged container did not drop caches,direct,,,
+125,2026-09-26T07:12:38.394608+00:00,268435456,16777216,full,blake3,8,True,261.906764,0.9545381577086722,16,warm page cache; unprivileged container did not drop caches,direct,,,
+126,2026-09-26T07:12:38.656733+00:00,268435456,16777216,streaming,blake3,8,True,416.732777,0.5999048162223151,16,warm page cache; unprivileged container did not drop caches,direct,,,
+127,2026-09-26T07:12:39.073513+00:00,268435456,16777216,streaming,blake3,8,True,512.476177,0.4878275541772159,16,warm page cache; unprivileged container did not drop caches,direct,,,
+128,2026-09-26T07:12:39.596750+00:00,268435456,16777216,streaming,blake3,8,True,451.603344,0.5535831461868006,16,warm page cache; unprivileged container did not drop caches,direct,,,
+129,2026-09-26T07:12:40.048487+00:00,268435456,16777216,streaming,blake3,8,True,439.807439,0.5684305853680661,16,warm page cache; unprivileged container did not drop caches,direct,,,
+130,2026-09-26T07:12:40.488356+00:00,268435456,16777216,streaming,blake3,8,True,508.99313,0.49116576485030355,16,warm page cache; unprivileged container did not drop caches,direct,,,
+131,2026-09-26T07:12:43.016986+00:00,268435456,16777216,full,blake3,12,True,461.12438,0.5421530737542005,16,warm page cache; unprivileged container did not drop caches,direct,,,
+132,2026-09-26T07:12:43.478157+00:00,268435456,16777216,full,blake3,12,True,472.654668,0.5289273901765422,16,warm page cache; unprivileged container did not drop caches,direct,,,
+133,2026-09-26T07:12:43.950863+00:00,268435456,16777216,full,blake3,12,True,260.137231,0.9610312181726883,16,warm page cache; unprivileged container did not drop caches,direct,,,
+134,2026-09-26T07:12:44.211050+00:00,268435456,16777216,full,blake3,12,True,290.391457,0.8609068688959399,16,warm page cache; unprivileged container did not drop caches,direct,,,
+135,2026-09-26T07:12:44.501490+00:00,268435456,16777216,full,blake3,12,True,447.313012,0.55889275136937,16,warm page cache; unprivileged container did not drop caches,direct,,,
+136,2026-09-26T07:12:44.948899+00:00,268435456,16777216,streaming,blake3,12,True,475.681163,0.5255621190112167,16,warm page cache; unprivileged container did not drop caches,direct,,,
+137,2026-09-26T07:12:45.424651+00:00,268435456,16777216,streaming,blake3,12,True,529.07173,0.47252571971668195,16,warm page cache; unprivileged container did not drop caches,direct,,,
+138,2026-09-26T07:12:45.953796+00:00,268435456,16777216,streaming,blake3,12,True,578.64638,0.4320427961547085,16,warm page cache; unprivileged container did not drop caches,direct,,,
+139,2026-09-26T07:12:46.532505+00:00,268435456,16777216,streaming,blake3,12,True,531.854884,0.47005303048039704,16,warm page cache; unprivileged container did not drop caches,direct,,,
+140,2026-09-26T07:12:47.064451+00:00,268435456,16777216,streaming,blake3,12,True,448.977901,0.5568202787780417,16,warm page cache; unprivileged container did not drop caches,direct,,,
+141,2026-09-26T07:12:48.856351+00:00,268435456,16777216,full,sha256,1,True,624.791072,0.40013375863347805,16,warm page cache; unprivileged container did not drop caches,direct,,,
+142,2026-09-26T07:12:49.481194+00:00,268435456,16777216,full,sha256,1,True,594.165832,0.4207579543214124,16,warm page cache; unprivileged container did not drop caches,direct,,,
+143,2026-09-26T07:12:50.075410+00:00,268435456,16777216,full,sha256,1,True,604.422413,0.4136180171730329,16,warm page cache; unprivileged container did not drop caches,direct,,,
+144,2026-09-26T07:12:50.679883+00:00,268435456,16777216,full,sha256,1,True,606.70791,0.41205989880698934,16,warm page cache; unprivileged container did not drop caches,direct,,,
+145,2026-09-26T07:12:51.286660+00:00,268435456,16777216,full,sha256,1,True,620.738788,0.4027458970390618,16,warm page cache; unprivileged container did not drop caches,direct,,,
+146,2026-09-26T07:12:51.907543+00:00,268435456,16777216,streaming,sha256,1,True,638.122089,0.3917745589903878,16,warm page cache; unprivileged container did not drop caches,direct,,,
+147,2026-09-26T07:12:52.545716+00:00,268435456,16777216,streaming,sha256,1,True,688.736123,0.36298371996382134,16,warm page cache; unprivileged container did not drop caches,direct,,,
+148,2026-09-26T07:12:53.234523+00:00,268435456,16777216,streaming,sha256,1,True,706.456827,0.35387866667187007,16,warm page cache; unprivileged container did not drop caches,direct,,,
+149,2026-09-26T07:12:53.941030+00:00,268435456,16777216,streaming,sha256,1,True,632.640184,0.3951693337266733,16,warm page cache; unprivileged container did not drop caches,direct,,,
+150,2026-09-26T07:12:54.573722+00:00,268435456,16777216,streaming,sha256,1,True,685.523762,0.36468465990242366,16,warm page cache; unprivileged container did not drop caches,direct,,,
+151,2026-09-26T07:12:56.554020+00:00,268435456,16777216,full,sha256,4,True,632.500412,0.395256659532421,16,warm page cache; unprivileged container did not drop caches,direct,,,
+152,2026-09-26T07:12:57.186570+00:00,268435456,16777216,full,sha256,4,True,566.361896,0.44141387647307406,16,warm page cache; unprivileged container did not drop caches,direct,,,
+153,2026-09-26T07:12:57.752991+00:00,268435456,16777216,full,sha256,4,True,406.866228,0.6144525713743929,16,warm page cache; unprivileged container did not drop caches,direct,,,
+154,2026-09-26T07:12:58.159927+00:00,268435456,16777216,full,sha256,4,True,595.672163,0.4196939449728827,16,warm page cache; unprivileged container did not drop caches,direct,,,
+155,2026-09-26T07:12:58.755650+00:00,268435456,16777216,full,sha256,4,True,640.617249,0.3902486241047187,16,warm page cache; unprivileged container did not drop caches,direct,,,
+156,2026-09-26T07:12:59.396389+00:00,268435456,16777216,streaming,sha256,4,True,673.827729,0.3710147107941294,16,warm page cache; unprivileged container did not drop caches,direct,,,
+157,2026-09-26T07:13:00.070267+00:00,268435456,16777216,streaming,sha256,4,True,717.275131,0.3485412907756313,16,warm page cache; unprivileged container did not drop caches,direct,,,
+158,2026-09-26T07:13:00.787644+00:00,268435456,16777216,streaming,sha256,4,True,691.0979,0.3617432494007,16,warm page cache; unprivileged container did not drop caches,direct,,,
+159,2026-09-26T07:13:01.478795+00:00,268435456,16777216,streaming,sha256,4,True,674.73161,0.3705176936945343,16,warm page cache; unprivileged container did not drop caches,direct,,,
+160,2026-09-26T07:13:02.153579+00:00,268435456,16777216,streaming,sha256,4,True,668.757112,0.37382780012962313,16,warm page cache; unprivileged container did not drop caches,direct,,,
+161,2026-09-26T07:13:03.749448+00:00,268435456,16777216,full,sha256,8,True,416.582605,0.6001210732262813,16,warm page cache; unprivileged container did not drop caches,direct,,,
+162,2026-09-26T07:13:04.166075+00:00,268435456,16777216,full,sha256,8,True,525.145267,0.4760587511874119,16,warm page cache; unprivileged container did not drop caches,direct,,,
+163,2026-09-26T07:13:04.691269+00:00,268435456,16777216,full,sha256,8,True,416.926017,0.5996267678349274,16,warm page cache; unprivileged container did not drop caches,direct,,,
+164,2026-09-26T07:13:05.108241+00:00,268435456,16777216,full,sha256,8,True,495.833446,0.5042015661041148,16,warm page cache; unprivileged container did not drop caches,direct,,,
+165,2026-09-26T07:13:05.604126+00:00,268435456,16777216,full,sha256,8,True,389.210515,0.6423259145503816,16,warm page cache; unprivileged container did not drop caches,direct,,,
+166,2026-09-26T07:13:05.994330+00:00,268435456,16777216,streaming,sha256,8,True,369.360768,0.6768450297352642,16,warm page cache; unprivileged container did not drop caches,direct,,,
+167,2026-09-26T07:13:06.363737+00:00,268435456,16777216,streaming,sha256,8,True,420.457163,0.5945908929609555,16,warm page cache; unprivileged container did not drop caches,direct,,,
+168,2026-09-26T07:13:06.771942+00:00,268435456,16777216,streaming,sha256,8,True,366.62738,0.6818912433654027,16,warm page cache; unprivileged container did not drop caches,direct,,,
+169,2026-09-26T07:13:07.138616+00:00,268435456,16777216,streaming,sha256,8,True,425.575826,0.5874393814840414,16,warm page cache; unprivileged container did not drop caches,direct,,,
+170,2026-09-26T07:13:07.564238+00:00,268435456,16777216,streaming,sha256,8,True,593.133249,0.42149044994778234,16,warm page cache; unprivileged container did not drop caches,direct,,,
+171,2026-09-26T07:13:09.019101+00:00,268435456,16777216,full,sha256,12,True,509.447768,0.4907274419543634,16,warm page cache; unprivileged container did not drop caches,direct,,,
+172,2026-09-26T07:13:09.528600+00:00,268435456,16777216,full,sha256,12,True,489.28862,0.5109458707623324,16,warm page cache; unprivileged container did not drop caches,direct,,,
+173,2026-09-26T07:13:10.017941+00:00,268435456,16777216,full,sha256,12,True,582.456421,0.4292166606572615,16,warm page cache; unprivileged container did not drop caches,direct,,,
+174,2026-09-26T07:13:10.600448+00:00,268435456,16777216,full,sha256,12,True,542.601569,0.4607432309138789,16,warm page cache; unprivileged container did not drop caches,direct,,,
+175,2026-09-26T07:13:11.143094+00:00,268435456,16777216,full,sha256,12,True,316.983502,0.7886845795526608,16,warm page cache; unprivileged container did not drop caches,direct,,,
+176,2026-09-26T07:13:11.460173+00:00,268435456,16777216,streaming,sha256,12,True,508.262606,0.49187171562253396,16,warm page cache; unprivileged container did not drop caches,direct,,,
+177,2026-09-26T07:13:11.968485+00:00,268435456,16777216,streaming,sha256,12,True,486.282371,0.5141045921239041,16,warm page cache; unprivileged container did not drop caches,direct,,,
+178,2026-09-26T07:13:12.454834+00:00,268435456,16777216,streaming,sha256,12,True,484.658753,0.5158268543640643,16,warm page cache; unprivileged container did not drop caches,direct,,,
+179,2026-09-26T07:13:12.939542+00:00,268435456,16777216,streaming,sha256,12,True,378.469191,0.660555749173253,16,warm page cache; unprivileged container did not drop caches,direct,,,
+180,2026-09-26T07:13:13.318054+00:00,268435456,16777216,streaming,sha256,12,True,485.625538,0.5147999444790319,16,warm page cache; unprivileged container did not drop caches,direct,,,
+181,2026-09-26T07:13:13.803795+00:00,268435456,16777216,sampled-8,blake3,12,True,437.29092,0.28585089303935235,8,warm page cache; unprivileged container did not drop caches,direct,,,
+182,2026-09-26T07:13:14.241143+00:00,268435456,16777216,sampled-8,blake3,12,True,749.299083,0.1668225717019862,8,warm page cache; unprivileged container did not drop caches,direct,,,
+183,2026-09-26T07:13:14.990500+00:00,268435456,16777216,sampled-8,blake3,12,True,446.317243,0.2800698426074477,8,warm page cache; unprivileged container did not drop caches,direct,,,
+184,2026-09-26T07:13:15.436880+00:00,268435456,16777216,sampled-8,blake3,12,True,552.112086,0.2264033031872445,8,warm page cache; unprivileged container did not drop caches,direct,,,
+185,2026-09-26T07:13:15.989070+00:00,268435456,16777216,sampled-8,blake3,12,True,822.794618,0.15192126597016706,8,warm page cache; unprivileged container did not drop caches,direct,,,
+186,2026-09-26T07:13:16.811989+00:00,268435456,16777216,sampled-32,blake3,12,True,1532.849583,0.16309493297490757,16,warm page cache; unprivileged container did not drop caches,direct,,,
+187,2026-09-26T07:13:18.344888+00:00,268435456,16777216,sampled-32,blake3,12,True,1199.792802,0.20836931142048976,16,warm page cache; unprivileged container did not drop caches,direct,,,
+188,2026-09-26T07:13:19.544743+00:00,268435456,16777216,sampled-32,blake3,12,True,930.055235,0.26880123953068225,16,warm page cache; unprivileged container did not drop caches,direct,,,
+189,2026-09-26T07:13:20.474857+00:00,268435456,16777216,sampled-32,blake3,12,True,1265.963361,0.19747806903552242,16,warm page cache; unprivileged container did not drop caches,direct,,,
+190,2026-09-26T07:13:21.740879+00:00,268435456,16777216,sampled-32,blake3,12,True,1091.306416,0.22908323119397844,16,warm page cache; unprivileged container did not drop caches,direct,,,
+191,2026-09-26T07:13:22.835380+00:00,268435456,16777216,sampled-128,blake3,12,True,1172.318974,0.2132525409419843,16,warm page cache; unprivileged container did not drop caches,direct,,,
+192,2026-09-26T07:13:24.008208+00:00,268435456,16777216,sampled-128,blake3,12,True,1001.103372,0.24972446102199325,16,warm page cache; unprivileged container did not drop caches,direct,,,
+193,2026-09-26T07:13:25.009374+00:00,268435456,16777216,sampled-128,blake3,12,True,1094.596013,0.22839476576825424,16,warm page cache; unprivileged container did not drop caches,direct,,,
+194,2026-09-26T07:13:26.104031+00:00,268435456,16777216,sampled-128,blake3,12,True,1066.413107,0.23443072704094212,16,warm page cache; unprivileged container did not drop caches,direct,,,
+195,2026-09-26T07:13:27.170559+00:00,268435456,16777216,sampled-128,blake3,12,True,892.128865,0.28022857437753684,16,warm page cache; unprivileged container did not drop caches,direct,,,
+196,2026-09-26T07:13:28.062947+00:00,268435456,16777216,cached,blake3,12,True,0.536107,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+197,2026-09-26T07:13:28.063521+00:00,268435456,16777216,cached,blake3,12,True,0.239168,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+198,2026-09-26T07:13:28.063789+00:00,268435456,16777216,cached,blake3,12,True,0.059368,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+199,2026-09-26T07:13:28.063855+00:00,268435456,16777216,cached,blake3,12,True,0.02714,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+200,2026-09-26T07:13:28.063887+00:00,268435456,16777216,cached,blake3,12,True,0.025643,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+201,2026-09-26T07:13:36.684136+00:00,1073741824,16777216,full,blake3,1,True,3516.954945,0.28433688109132144,64,warm page cache; unprivileged container did not drop caches,direct,,,
+202,2026-09-26T07:13:40.195019+00:00,1073741824,16777216,full,blake3,1,True,3962.062811,0.2523937776109123,64,warm page cache; unprivileged container did not drop caches,direct,,,
+203,2026-09-26T07:13:44.157130+00:00,1073741824,16777216,full,blake3,1,True,3207.824213,0.3117377803769324,64,warm page cache; unprivileged container did not drop caches,direct,,,
+204,2026-09-26T07:13:47.364994+00:00,1073741824,16777216,full,blake3,1,True,3502.632402,0.2854995572555661,64,warm page cache; unprivileged container did not drop caches,direct,,,
+205,2026-09-26T07:13:50.867668+00:00,1073741824,16777216,full,blake3,1,True,4321.166578,0.23141898881918083,64,warm page cache; unprivileged container did not drop caches,direct,,,
+206,2026-09-26T07:13:55.189033+00:00,1073741824,16777216,streaming,blake3,1,True,6234.133956,0.16040720444217546,64,warm page cache; unprivileged container did not drop caches,direct,,,
+207,2026-09-26T07:14:01.423209+00:00,1073741824,16777216,streaming,blake3,1,True,6933.368042,0.14423004720683197,64,warm page cache; unprivileged container did not drop caches,direct,,,
+208,2026-09-26T07:14:08.350840+00:00,1073741824,16777216,streaming,blake3,1,True,6638.306344,0.15064083339628415,64,warm page cache; unprivileged container did not drop caches,direct,,,
+209,2026-09-26T07:14:14.989214+00:00,1073741824,16777216,streaming,blake3,1,True,6479.180726,0.15434050110489234,64,warm page cache; unprivileged container did not drop caches,direct,,,
+210,2026-09-26T07:14:21.468443+00:00,1073741824,16777216,streaming,blake3,1,True,6171.944603,0.16202348924420507,64,warm page cache; unprivileged container did not drop caches,direct,,,
+211,2026-09-26T07:14:31.675019+00:00,1073741824,16777216,full,blake3,4,True,1968.977738,0.5078777584431988,64,warm page cache; unprivileged container did not drop caches,direct,,,
+212,2026-09-26T07:14:33.644044+00:00,1073741824,16777216,full,blake3,4,True,1658.243422,0.6030477713542831,64,warm page cache; unprivileged container did not drop caches,direct,,,
+213,2026-09-26T07:14:35.302341+00:00,1073741824,16777216,full,blake3,4,True,1832.482204,0.5457078916330912,64,warm page cache; unprivileged container did not drop caches,direct,,,
+214,2026-09-26T07:14:37.130897+00:00,1073741824,16777216,full,blake3,4,True,1768.88974,0.5653263611557835,64,warm page cache; unprivileged container did not drop caches,direct,,,
+215,2026-09-26T07:14:38.899837+00:00,1073741824,16777216,full,blake3,4,True,2193.61805,0.45586787544896434,64,warm page cache; unprivileged container did not drop caches,direct,,,
+216,2026-09-26T07:14:41.093556+00:00,1073741824,16777216,streaming,blake3,4,True,2427.513789,0.4119441069836081,64,warm page cache; unprivileged container did not drop caches,direct,,,
+217,2026-09-26T07:14:43.521117+00:00,1073741824,16777216,streaming,blake3,4,True,2388.938417,0.41859597253904435,64,warm page cache; unprivileged container did not drop caches,direct,,,
+218,2026-09-26T07:14:45.910115+00:00,1073741824,16777216,streaming,blake3,4,True,2086.274576,0.47932329306207305,64,warm page cache; unprivileged container did not drop caches,direct,,,
+219,2026-09-26T07:14:47.996437+00:00,1073741824,16777216,streaming,blake3,4,True,2164.375415,0.4620270555050636,64,warm page cache; unprivileged container did not drop caches,direct,,,
+220,2026-09-26T07:14:50.160860+00:00,1073741824,16777216,streaming,blake3,4,True,2530.846478,0.3951247176360731,64,warm page cache; unprivileged container did not drop caches,direct,,,
+221,2026-09-26T07:14:57.573049+00:00,1073741824,16777216,full,blake3,8,True,1253.178409,0.7979709774907238,64,warm page cache; unprivileged container did not drop caches,direct,,,
+222,2026-09-26T07:14:58.826269+00:00,1073741824,16777216,full,blake3,8,True,1155.655395,0.8653098530293281,64,warm page cache; unprivileged container did not drop caches,direct,,,
+223,2026-09-26T07:14:59.981977+00:00,1073741824,16777216,full,blake3,8,True,1067.986779,0.9363411791823313,64,warm page cache; unprivileged container did not drop caches,direct,,,
+224,2026-09-26T07:15:01.050015+00:00,1073741824,16777216,full,blake3,8,True,1343.770462,0.7441747145652023,64,warm page cache; unprivileged container did not drop caches,direct,,,
+225,2026-09-26T07:15:02.393836+00:00,1073741824,16777216,full,blake3,8,True,1088.028306,0.9190937354161078,64,warm page cache; unprivileged container did not drop caches,direct,,,
+226,2026-09-26T07:15:03.481981+00:00,1073741824,16777216,streaming,blake3,8,True,1510.173346,0.6621756387428652,64,warm page cache; unprivileged container did not drop caches,direct,,,
+227,2026-09-26T07:15:04.992203+00:00,1073741824,16777216,streaming,blake3,8,True,1519.435415,0.6581391944191323,64,warm page cache; unprivileged container did not drop caches,direct,,,
+228,2026-09-26T07:15:06.511694+00:00,1073741824,16777216,streaming,blake3,8,True,1516.277452,0.6595099061065508,64,warm page cache; unprivileged container did not drop caches,direct,,,
+229,2026-09-26T07:15:07.917310+00:00,1073741824,16777216,streaming,blake3,8,True,1540.084457,0.6493150394803316,64,warm page cache; unprivileged container did not drop caches,direct,,,
+230,2026-09-26T07:15:09.457452+00:00,1073741824,16777216,streaming,blake3,8,True,1547.82373,0.6460683995328071,64,warm page cache; unprivileged container did not drop caches,direct,,,
+231,2026-09-26T07:15:16.138454+00:00,1073741824,16777216,full,blake3,12,True,1095.972935,0.9124312910154118,64,warm page cache; unprivileged container did not drop caches,direct,,,
+232,2026-09-26T07:15:17.234479+00:00,1073741824,16777216,full,blake3,12,True,982.24566,1.0180752542088096,64,warm page cache; unprivileged container did not drop caches,direct,,,
+233,2026-09-26T07:15:18.216807+00:00,1073741824,16777216,full,blake3,12,True,1028.80879,0.9719979161531075,64,warm page cache; unprivileged container did not drop caches,direct,,,
+234,2026-09-26T07:15:19.245682+00:00,1073741824,16777216,full,blake3,12,True,983.316242,1.016966828460055,64,warm page cache; unprivileged container did not drop caches,direct,,,
+235,2026-09-26T07:15:20.229073+00:00,1073741824,16777216,full,blake3,12,True,941.899023,1.06168493180399,64,warm page cache; unprivileged container did not drop caches,direct,,,
+236,2026-09-26T07:15:21.171107+00:00,1073741824,16777216,streaming,blake3,12,True,1920.803781,0.5206153850235471,64,warm page cache; unprivileged container did not drop caches,direct,,,
+237,2026-09-26T07:15:23.091976+00:00,1073741824,16777216,streaming,blake3,12,True,1977.792445,0.5056142278872948,64,warm page cache; unprivileged container did not drop caches,direct,,,
+238,2026-09-26T07:15:25.069838+00:00,1073741824,16777216,streaming,blake3,12,True,1918.262575,0.5213050669040968,64,warm page cache; unprivileged container did not drop caches,direct,,,
+239,2026-09-26T07:15:26.988152+00:00,1073741824,16777216,streaming,blake3,12,True,1929.566814,0.5182510357995823,64,warm page cache; unprivileged container did not drop caches,direct,,,
+240,2026-09-26T07:15:28.917798+00:00,1073741824,16777216,streaming,blake3,12,True,2014.711965,0.4963488664246852,64,warm page cache; unprivileged container did not drop caches,direct,,,
+241,2026-09-26T07:15:34.778721+00:00,1073741824,16777216,full,sha256,1,True,2001.877131,0.4995311572895929,64,warm page cache; unprivileged container did not drop caches,direct,,,
+242,2026-09-26T07:15:36.780642+00:00,1073741824,16777216,full,sha256,1,True,1778.156233,0.5623802798884883,64,warm page cache; unprivileged container did not drop caches,direct,,,
+243,2026-09-26T07:15:38.663837+00:00,1073741824,16777216,full,sha256,1,True,1926.461541,0.519086407238067,64,warm page cache; unprivileged container did not drop caches,direct,,,
+244,2026-09-26T07:15:40.590344+00:00,1073741824,16777216,full,sha256,1,True,1761.047517,0.5678438488153525,64,warm page cache; unprivileged container did not drop caches,direct,,,
+245,2026-09-26T07:15:42.351436+00:00,1073741824,16777216,full,sha256,1,True,1960.781695,0.5100006811314097,64,warm page cache; unprivileged container did not drop caches,direct,,,
+246,2026-09-26T07:15:44.312324+00:00,1073741824,16777216,streaming,sha256,1,True,2036.700686,0.49099016211555396,64,warm page cache; unprivileged container did not drop caches,direct,,,
+247,2026-09-26T07:15:46.349071+00:00,1073741824,16777216,streaming,sha256,1,True,1968.919458,0.5078927916207328,64,warm page cache; unprivileged container did not drop caches,direct,,,
+248,2026-09-26T07:15:48.318051+00:00,1073741824,16777216,streaming,sha256,1,True,1962.222665,0.5096261590679363,64,warm page cache; unprivileged container did not drop caches,direct,,,
+249,2026-09-26T07:15:50.280321+00:00,1073741824,16777216,streaming,sha256,1,True,1862.945524,0.536784348826724,64,warm page cache; unprivileged container did not drop caches,direct,,,
+250,2026-09-26T07:15:52.143312+00:00,1073741824,16777216,streaming,sha256,1,True,1765.648719,0.5663640730112862,64,warm page cache; unprivileged container did not drop caches,direct,,,
+251,2026-09-26T07:15:57.757913+00:00,1073741824,16777216,full,sha256,4,True,1920.628423,0.5206629184618705,64,warm page cache; unprivileged container did not drop caches,direct,,,
+252,2026-09-26T07:15:59.686288+00:00,1073741824,16777216,full,sha256,4,True,1694.337331,0.5902012436979115,64,warm page cache; unprivileged container did not drop caches,direct,,,
+253,2026-09-26T07:16:01.380672+00:00,1073741824,16777216,full,sha256,4,True,1865.635558,0.5360103669293379,64,warm page cache; unprivileged container did not drop caches,direct,,,
+254,2026-09-26T07:16:03.246354+00:00,1073741824,16777216,full,sha256,4,True,1959.840618,0.5102455734489733,64,warm page cache; unprivileged container did not drop caches,direct,,,
+255,2026-09-26T07:16:05.206242+00:00,1073741824,16777216,full,sha256,4,True,1779.898086,0.5618299204126455,64,warm page cache; unprivileged container did not drop caches,direct,,,
+256,2026-09-26T07:16:06.990976+00:00,1073741824,16777216,streaming,sha256,4,True,2047.997574,0.48828182840415807,64,warm page cache; unprivileged container did not drop caches,direct,,,
+257,2026-09-26T07:16:09.032081+00:00,1073741824,16777216,streaming,sha256,4,True,2015.027706,0.49627109196681185,64,warm page cache; unprivileged container did not drop caches,direct,,,
+258,2026-09-26T07:16:11.047214+00:00,1073741824,16777216,streaming,sha256,4,True,1951.406601,0.5124508646673375,64,warm page cache; unprivileged container did not drop caches,direct,,,
+259,2026-09-26T07:16:12.998687+00:00,1073741824,16777216,streaming,sha256,4,True,2153.884878,0.4642773670097702,64,warm page cache; unprivileged container did not drop caches,direct,,,
+260,2026-09-26T07:16:15.152620+00:00,1073741824,16777216,streaming,sha256,4,True,1895.835601,0.5274718965465824,64,warm page cache; unprivileged container did not drop caches,direct,,,
+261,2026-09-26T07:16:20.862570+00:00,1073741824,16777216,full,sha256,8,True,1978.617292,0.5054034471664771,64,warm page cache; unprivileged container did not drop caches,direct,,,
+262,2026-09-26T07:16:22.841231+00:00,1073741824,16777216,full,sha256,8,True,2000.39177,0.4999020766817093,64,warm page cache; unprivileged container did not drop caches,direct,,,
+263,2026-09-26T07:16:24.841668+00:00,1073741824,16777216,full,sha256,8,True,1900.670674,0.5261300727576754,64,warm page cache; unprivileged container did not drop caches,direct,,,
+264,2026-09-26T07:16:26.742385+00:00,1073741824,16777216,full,sha256,8,True,2017.682348,0.4956181536658812,64,warm page cache; unprivileged container did not drop caches,direct,,,
+265,2026-09-26T07:16:28.760114+00:00,1073741824,16777216,full,sha256,8,True,1846.642616,0.5415232981929623,64,warm page cache; unprivileged container did not drop caches,direct,,,
+266,2026-09-26T07:16:30.617491+00:00,1073741824,16777216,streaming,sha256,8,True,2157.954072,0.46340189208623717,64,warm page cache; unprivileged container did not drop caches,direct,,,
+267,2026-09-26T07:16:32.775499+00:00,1073741824,16777216,streaming,sha256,8,True,2013.582214,0.4966273505234686,64,warm page cache; unprivileged container did not drop caches,direct,,,
+268,2026-09-26T07:16:34.789301+00:00,1073741824,16777216,streaming,sha256,8,True,2368.684067,0.4221753394349994,64,warm page cache; unprivileged container did not drop caches,direct,,,
+269,2026-09-26T07:16:37.170007+00:00,1073741824,16777216,streaming,sha256,8,True,2106.806735,0.47465198557949356,64,warm page cache; unprivileged container did not drop caches,direct,,,
+270,2026-09-26T07:16:39.272938+00:00,1073741824,16777216,streaming,sha256,8,True,2104.130611,0.4752556684324574,64,warm page cache; unprivileged container did not drop caches,direct,,,
+271,2026-09-26T07:16:45.280521+00:00,1073741824,16777216,full,sha256,12,True,1954.201246,0.5117180239480822,64,warm page cache; unprivileged container did not drop caches,direct,,,
+272,2026-09-26T07:16:47.234759+00:00,1073741824,16777216,full,sha256,12,True,2016.065226,0.4960156978571883,64,warm page cache; unprivileged container did not drop caches,direct,,,
+273,2026-09-26T07:16:49.250867+00:00,1073741824,16777216,full,sha256,12,True,1994.025084,0.5014982048239871,64,warm page cache; unprivileged container did not drop caches,direct,,,
+274,2026-09-26T07:16:51.244938+00:00,1073741824,16777216,full,sha256,12,True,1899.124565,0.5265584040297009,64,warm page cache; unprivileged container did not drop caches,direct,,,
+275,2026-09-26T07:16:53.144108+00:00,1073741824,16777216,full,sha256,12,True,2059.823136,0.485478574603213,64,warm page cache; unprivileged container did not drop caches,direct,,,
+276,2026-09-26T07:16:55.204050+00:00,1073741824,16777216,streaming,sha256,12,True,2105.649458,0.474912857028836,64,warm page cache; unprivileged container did not drop caches,direct,,,
+277,2026-09-26T07:16:57.309751+00:00,1073741824,16777216,streaming,sha256,12,True,2123.955789,0.4708195929402182,64,warm page cache; unprivileged container did not drop caches,direct,,,
+278,2026-09-26T07:16:59.433757+00:00,1073741824,16777216,streaming,sha256,12,True,1890.628694,0.5289245863947519,64,warm page cache; unprivileged container did not drop caches,direct,,,
+279,2026-09-26T07:17:01.324434+00:00,1073741824,16777216,streaming,sha256,12,True,2145.459123,0.46610070044200974,64,warm page cache; unprivileged container did not drop caches,direct,,,
+280,2026-09-26T07:17:03.469939+00:00,1073741824,16777216,streaming,sha256,12,True,2038.689537,0.49051117487537294,64,warm page cache; unprivileged container did not drop caches,direct,,,
+281,2026-09-26T07:17:05.508813+00:00,1073741824,16777216,sampled-8,blake3,12,True,633.690217,0.19725726647915098,8,warm page cache; unprivileged container did not drop caches,direct,,,
+282,2026-09-26T07:17:06.142558+00:00,1073741824,16777216,sampled-8,blake3,12,True,493.892836,0.25309134064864225,8,warm page cache; unprivileged container did not drop caches,direct,,,
+283,2026-09-26T07:17:06.636510+00:00,1073741824,16777216,sampled-8,blake3,12,True,440.992329,0.28345164253412675,8,warm page cache; unprivileged container did not drop caches,direct,,,
+284,2026-09-26T07:17:07.077563+00:00,1073741824,16777216,sampled-8,blake3,12,True,769.217871,0.16250272479693859,8,warm page cache; unprivileged container did not drop caches,direct,,,
+285,2026-09-26T07:17:07.846840+00:00,1073741824,16777216,sampled-8,blake3,12,True,598.976066,0.20868947374601776,8,warm page cache; unprivileged container did not drop caches,direct,,,
+286,2026-09-26T07:17:08.441901+00:00,1073741824,16777216,sampled-32,blake3,12,True,2505.207167,0.1995842925033433,32,warm page cache; unprivileged container did not drop caches,direct,,,
+287,2026-09-26T07:17:10.947170+00:00,1073741824,16777216,sampled-32,blake3,12,True,2071.660468,0.24135229093921193,32,warm page cache; unprivileged container did not drop caches,direct,,,
+288,2026-09-26T07:17:13.018899+00:00,1073741824,16777216,sampled-32,blake3,12,True,2584.751417,0.19344219978427427,32,warm page cache; unprivileged container did not drop caches,direct,,,
+289,2026-09-26T07:17:15.603716+00:00,1073741824,16777216,sampled-32,blake3,12,True,2964.843073,0.16864298976001824,32,warm page cache; unprivileged container did not drop caches,direct,,,
+290,2026-09-26T07:17:18.568618+00:00,1073741824,16777216,sampled-32,blake3,12,True,1948.605442,0.2565937614783691,32,warm page cache; unprivileged container did not drop caches,direct,,,
+291,2026-09-26T07:17:20.517345+00:00,1073741824,16777216,sampled-128,blake3,12,True,4993.797501,0.20024840811021102,64,warm page cache; unprivileged container did not drop caches,direct,,,
+292,2026-09-26T07:17:25.511195+00:00,1073741824,16777216,sampled-128,blake3,12,True,4621.823876,0.21636480031027472,64,warm page cache; unprivileged container did not drop caches,direct,,,
+293,2026-09-26T07:17:30.133076+00:00,1073741824,16777216,sampled-128,blake3,12,True,4598.927693,0.2174419922979207,64,warm page cache; unprivileged container did not drop caches,direct,,,
+294,2026-09-26T07:17:34.732063+00:00,1073741824,16777216,sampled-128,blake3,12,True,4477.924991,0.22331772015160134,64,warm page cache; unprivileged container did not drop caches,direct,,,
+295,2026-09-26T07:17:39.204970+00:00,1073741824,16777216,sampled-128,blake3,12,True,5115.086661,0.19550010904497556,64,warm page cache; unprivileged container did not drop caches,direct,,,
+296,2026-09-26T07:17:44.320181+00:00,1073741824,16777216,cached,blake3,12,True,0.210616,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+297,2026-09-26T07:17:44.320419+00:00,1073741824,16777216,cached,blake3,12,True,0.061205,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+298,2026-09-26T07:17:44.320497+00:00,1073741824,16777216,cached,blake3,12,True,0.028402,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+299,2026-09-26T07:17:44.320531+00:00,1073741824,16777216,cached,blake3,12,True,0.024802,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+300,2026-09-26T07:17:44.320562+00:00,1073741824,16777216,cached,blake3,12,True,0.024402,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+301,2026-09-26T07:17:53.309360+00:00,1073741824,4194304,full,blake3,12,True,740.899078,1.349711492015111,256,warm page cache; unprivileged container did not drop caches,direct,,,
+302,2026-09-26T07:17:54.050303+00:00,1073741824,4194304,full,blake3,12,True,830.922146,1.2034821852010187,256,warm page cache; unprivileged container did not drop caches,direct,,,
+303,2026-09-26T07:17:54.881269+00:00,1073741824,4194304,full,blake3,12,True,666.050063,1.5013886426131904,256,warm page cache; unprivileged container did not drop caches,direct,,,
+304,2026-09-26T07:17:55.547362+00:00,1073741824,4194304,full,blake3,12,True,673.157548,1.4855363398524946,256,warm page cache; unprivileged container did not drop caches,direct,,,
+305,2026-09-26T07:17:56.220568+00:00,1073741824,4194304,full,blake3,12,True,782.713181,1.277607205646381,256,warm page cache; unprivileged container did not drop caches,direct,,,
+306,2026-09-26T07:17:57.003388+00:00,1073741824,4194304,streaming,blake3,12,True,3053.323137,0.32751201072760877,256,warm page cache; unprivileged container did not drop caches,direct,,,
+307,2026-09-26T07:18:00.056775+00:00,1073741824,4194304,streaming,blake3,12,True,3074.190285,0.3252889077424171,256,warm page cache; unprivileged container did not drop caches,direct,,,
+308,2026-09-26T07:18:03.131047+00:00,1073741824,4194304,streaming,blake3,12,True,4082.364149,0.24495609982391112,256,warm page cache; unprivileged container did not drop caches,direct,,,
+309,2026-09-26T07:18:07.213477+00:00,1073741824,4194304,streaming,blake3,12,True,3329.147919,0.3003771608623438,256,warm page cache; unprivileged container did not drop caches,direct,,,
+310,2026-09-26T07:18:10.533354+00:00,1073741824,4194304,streaming,blake3,12,True,3221.692916,0.310395815514777,256,warm page cache; unprivileged container did not drop caches,direct,,,
+311,2026-09-26T07:18:13.755163+00:00,1073741824,4194304,sampled-8,blake3,12,True,441.874502,0.07072143755423117,8,warm page cache; unprivileged container did not drop caches,direct,,,
+312,2026-09-26T07:18:14.197086+00:00,1073741824,4194304,sampled-8,blake3,12,True,239.850989,0.13028922720014302,8,warm page cache; unprivileged container did not drop caches,direct,,,
+313,2026-09-26T07:18:14.436986+00:00,1073741824,4194304,sampled-8,blake3,12,True,334.77538,0.09334617139408519,8,warm page cache; unprivileged container did not drop caches,direct,,,
+314,2026-09-26T07:18:14.771812+00:00,1073741824,4194304,sampled-8,blake3,12,True,212.69403,0.14692466920674735,8,warm page cache; unprivileged container did not drop caches,direct,,,
+315,2026-09-26T07:18:14.984769+00:00,1073741824,4194304,sampled-8,blake3,12,True,261.254831,0.1196150129755878,8,warm page cache; unprivileged container did not drop caches,direct,,,
+316,2026-09-26T07:18:15.246154+00:00,1073741824,4194304,sampled-32,blake3,12,True,1057.976567,0.11815006484921514,32,warm page cache; unprivileged container did not drop caches,direct,,,
+317,2026-09-26T07:18:16.304181+00:00,1073741824,4194304,sampled-32,blake3,12,True,1191.633263,0.1048980452973475,32,warm page cache; unprivileged container did not drop caches,direct,,,
+318,2026-09-26T07:18:17.495865+00:00,1073741824,4194304,sampled-32,blake3,12,True,1608.216644,0.07772584649360213,32,warm page cache; unprivileged container did not drop caches,direct,,,
+319,2026-09-26T07:18:19.104139+00:00,1073741824,4194304,sampled-32,blake3,12,True,1177.177407,0.10618620375883583,32,warm page cache; unprivileged container did not drop caches,direct,,,
+320,2026-09-26T07:18:20.281377+00:00,1073741824,4194304,sampled-32,blake3,12,True,1170.157869,0.10682319310198991,32,warm page cache; unprivileged container did not drop caches,direct,,,
+321,2026-09-26T07:18:21.451653+00:00,1073741824,4194304,sampled-128,blake3,12,True,3970.120991,0.12594074617208562,128,warm page cache; unprivileged container did not drop caches,direct,,,
+322,2026-09-26T07:18:25.421833+00:00,1073741824,4194304,sampled-128,blake3,12,True,5196.218092,0.09622382878228121,128,warm page cache; unprivileged container did not drop caches,direct,,,
+323,2026-09-26T07:18:30.618112+00:00,1073741824,4194304,sampled-128,blake3,12,True,4744.907098,0.10537614112840109,128,warm page cache; unprivileged container did not drop caches,direct,,,
+324,2026-09-26T07:18:35.363077+00:00,1073741824,4194304,sampled-128,blake3,12,True,4491.253823,0.11132748664514747,128,warm page cache; unprivileged container did not drop caches,direct,,,
+325,2026-09-26T07:18:39.851450+00:00,1073741824,4194304,sampled-128,blake3,12,True,4336.811779,0.11529206833949619,128,warm page cache; unprivileged container did not drop caches,direct,,,
+326,2026-09-26T07:18:44.188387+00:00,1073741824,4194304,cached,blake3,12,True,0.22474,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+327,2026-09-26T07:18:44.188649+00:00,1073741824,4194304,cached,blake3,12,True,0.05361,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+328,2026-09-26T07:18:44.188709+00:00,1073741824,4194304,cached,blake3,12,True,0.030905,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+329,2026-09-26T07:18:44.188801+00:00,1073741824,4194304,cached,blake3,12,True,0.025805,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+330,2026-09-26T07:18:44.188831+00:00,1073741824,4194304,cached,blake3,12,True,0.023704,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+331,2026-09-26T07:18:48.907866+00:00,1073741824,67108864,full,blake3,12,True,1090.678148,0.9168607639510533,16,warm page cache; unprivileged container did not drop caches,direct,,,
+332,2026-09-26T07:18:49.998595+00:00,1073741824,67108864,full,blake3,12,True,797.633369,1.2537088327356574,16,warm page cache; unprivileged container did not drop caches,direct,,,
+333,2026-09-26T07:18:50.796280+00:00,1073741824,67108864,full,blake3,12,True,836.222767,1.1958535924435074,16,warm page cache; unprivileged container did not drop caches,direct,,,
+334,2026-09-26T07:18:51.632544+00:00,1073741824,67108864,full,blake3,12,True,914.540709,1.0934450376664426,16,warm page cache; unprivileged container did not drop caches,direct,,,
+335,2026-09-26T07:18:52.547126+00:00,1073741824,67108864,full,blake3,12,True,1040.865121,0.9607392733452926,16,warm page cache; unprivileged container did not drop caches,direct,,,
+336,2026-09-26T07:18:53.588126+00:00,1073741824,67108864,streaming,blake3,12,True,2574.154027,0.38847714220327034,16,warm page cache; unprivileged container did not drop caches,direct,,,
+337,2026-09-26T07:18:56.162331+00:00,1073741824,67108864,streaming,blake3,12,True,3122.790572,0.32022640549972814,16,warm page cache; unprivileged container did not drop caches,direct,,,
+338,2026-09-26T07:18:59.285176+00:00,1073741824,67108864,streaming,blake3,12,True,3555.916133,0.28122148065295777,16,warm page cache; unprivileged container did not drop caches,direct,,,
+339,2026-09-26T07:19:02.841143+00:00,1073741824,67108864,streaming,blake3,12,True,2785.588449,0.3589905753518581,16,warm page cache; unprivileged container did not drop caches,direct,,,
+340,2026-09-26T07:19:05.626792+00:00,1073741824,67108864,streaming,blake3,12,True,2578.170692,0.38787191364131757,16,warm page cache; unprivileged container did not drop caches,direct,,,
+341,2026-09-26T07:19:08.202438+00:00,1073741824,67108864,sampled-8,blake3,12,True,1468.827409,0.3404075910732137,8,warm page cache; unprivileged container did not drop caches,direct,,,
+342,2026-09-26T07:19:09.671323+00:00,1073741824,67108864,sampled-8,blake3,12,True,1875.83778,0.26654756894809956,8,warm page cache; unprivileged container did not drop caches,direct,,,
+343,2026-09-26T07:19:11.547222+00:00,1073741824,67108864,sampled-8,blake3,12,True,1732.299463,0.2886336979716537,8,warm page cache; unprivileged container did not drop caches,direct,,,
+344,2026-09-26T07:19:13.279581+00:00,1073741824,67108864,sampled-8,blake3,12,True,1670.444671,0.29932149725179374,8,warm page cache; unprivileged container did not drop caches,direct,,,
+345,2026-09-26T07:19:14.950085+00:00,1073741824,67108864,sampled-8,blake3,12,True,1250.861578,0.39972448494216994,8,warm page cache; unprivileged container did not drop caches,direct,,,
+346,2026-09-26T07:19:16.201129+00:00,1073741824,67108864,sampled-32,blake3,12,True,2493.063121,0.40111298890775254,16,warm page cache; unprivileged container did not drop caches,direct,,,
+347,2026-09-26T07:19:18.694256+00:00,1073741824,67108864,sampled-32,blake3,12,True,4307.2037,0.23216919134797365,16,warm page cache; unprivileged container did not drop caches,direct,,,
+348,2026-09-26T07:19:23.001519+00:00,1073741824,67108864,sampled-32,blake3,12,True,3054.852039,0.327348096481736,16,warm page cache; unprivileged container did not drop caches,direct,,,
+349,2026-09-26T07:19:26.056434+00:00,1073741824,67108864,sampled-32,blake3,12,True,2942.759263,0.33981712760987065,16,warm page cache; unprivileged container did not drop caches,direct,,,
+350,2026-09-26T07:19:28.999256+00:00,1073741824,67108864,sampled-32,blake3,12,True,2276.802178,0.43921251027545355,16,warm page cache; unprivileged container did not drop caches,direct,,,
+351,2026-09-26T07:19:31.277561+00:00,1073741824,67108864,sampled-128,blake3,12,True,2100.753996,0.476019563406319,16,warm page cache; unprivileged container did not drop caches,direct,,,
+352,2026-09-26T07:19:33.379645+00:00,1073741824,67108864,sampled-128,blake3,12,True,2339.649312,0.42741448253420977,16,warm page cache; unprivileged container did not drop caches,direct,,,
+353,2026-09-26T07:19:35.719348+00:00,1073741824,67108864,sampled-128,blake3,12,True,3018.313447,0.33131085208990885,16,warm page cache; unprivileged container did not drop caches,direct,,,
+354,2026-09-26T07:19:38.735374+00:00,1073741824,67108864,sampled-128,blake3,12,True,4089.784383,0.24451166769492744,16,warm page cache; unprivileged container did not drop caches,direct,,,
+355,2026-09-26T07:19:42.825224+00:00,1073741824,67108864,sampled-128,blake3,12,True,2943.452564,0.33973708706249767,16,warm page cache; unprivileged container did not drop caches,direct,,,
+356,2026-09-26T07:19:45.768802+00:00,1073741824,67108864,cached,blake3,12,True,0.509245,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+357,2026-09-26T07:19:45.769344+00:00,1073741824,67108864,cached,blake3,12,True,0.038803,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+358,2026-09-26T07:19:45.769408+00:00,1073741824,67108864,cached,blake3,12,True,0.029002,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+359,2026-09-26T07:19:45.769442+00:00,1073741824,67108864,cached,blake3,12,True,0.025802,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+360,2026-09-26T07:19:45.769475+00:00,1073741824,67108864,cached,blake3,12,True,0.025302,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+361,2026-09-26T07:20:39.316141+00:00,4294967296,16777216,full,blake3,1,True,20385.169158,0.19622108450496872,256,warm page cache; unprivileged container did not drop caches,direct,,,
+362,2026-09-26T07:20:59.701464+00:00,4294967296,16777216,full,blake3,1,True,17807.404794,0.2246256569260308,256,warm page cache; unprivileged container did not drop caches,direct,,,
+363,2026-09-26T07:21:17.497682+00:00,4294967296,16777216,full,blake3,1,True,13893.733128,0.28789958488110096,256,warm page cache; unprivileged container did not drop caches,direct,,,
+364,2026-09-26T07:21:31.391925+00:00,4294967296,16777216,streaming,blake3,1,True,13838.605468,0.2890464656463751,256,warm page cache; unprivileged container did not drop caches,direct,,,
+365,2026-09-26T07:21:45.236348+00:00,4294967296,16777216,streaming,blake3,1,True,13662.420365,0.2927738931417369,256,warm page cache; unprivileged container did not drop caches,direct,,,
+366,2026-09-26T07:21:58.898846+00:00,4294967296,16777216,streaming,blake3,1,True,13409.06858,0.29830558149028424,256,warm page cache; unprivileged container did not drop caches,direct,,,
+367,2026-09-26T07:22:21.868178+00:00,4294967296,16777216,full,blake3,4,True,3687.75493,1.0846707755604572,256,warm page cache; unprivileged container did not drop caches,direct,,,
+368,2026-09-26T07:22:25.555995+00:00,4294967296,16777216,full,blake3,4,True,3856.229909,1.037282551713127,256,warm page cache; unprivileged container did not drop caches,direct,,,
+369,2026-09-26T07:22:29.412282+00:00,4294967296,16777216,full,blake3,4,True,3394.297644,1.1784470366264672,256,warm page cache; unprivileged container did not drop caches,direct,,,
+370,2026-09-26T07:22:32.806806+00:00,4294967296,16777216,streaming,blake3,4,True,5043.823143,0.7930492181414697,256,warm page cache; unprivileged container did not drop caches,direct,,,
+371,2026-09-26T07:22:37.850780+00:00,4294967296,16777216,streaming,blake3,4,True,4738.089263,0.8442221701554296,256,warm page cache; unprivileged container did not drop caches,direct,,,
+372,2026-09-26T07:22:42.586600+00:00,4294967296,16777216,streaming,blake3,4,True,5097.949076,0.784629257838432,256,warm page cache; unprivileged container did not drop caches,direct,,,
+373,2026-09-26T07:23:01.581114+00:00,4294967296,16777216,full,blake3,8,True,2908.586241,1.3752385759154115,256,warm page cache; unprivileged container did not drop caches,direct,,,
+374,2026-09-26T07:23:04.489752+00:00,4294967296,16777216,full,blake3,8,True,3619.72592,1.1050560424751716,256,warm page cache; unprivileged container did not drop caches,direct,,,
+375,2026-09-26T07:23:08.109533+00:00,4294967296,16777216,full,blake3,8,True,3061.576406,1.3065164704564947,256,warm page cache; unprivileged container did not drop caches,direct,,,
+376,2026-09-26T07:23:11.168835+00:00,4294967296,16777216,streaming,blake3,8,True,4974.873746,0.8040405051919483,256,warm page cache; unprivileged container did not drop caches,direct,,,
+377,2026-09-26T07:23:16.143761+00:00,4294967296,16777216,streaming,blake3,8,True,5316.912881,0.75231625748355,256,warm page cache; unprivileged container did not drop caches,direct,,,
+378,2026-09-26T07:23:21.460729+00:00,4294967296,16777216,streaming,blake3,8,True,5231.302962,0.7646278621322181,256,warm page cache; unprivileged container did not drop caches,direct,,,
+379,2026-09-26T07:23:50.119810+00:00,4294967296,16777216,full,blake3,12,True,3563.156526,1.1226001358100315,256,warm page cache; unprivileged container did not drop caches,direct,,,
+380,2026-09-26T07:23:53.683016+00:00,4294967296,16777216,full,blake3,12,True,3259.525601,1.2271724445952588,256,warm page cache; unprivileged container did not drop caches,direct,,,
+381,2026-09-26T07:23:56.942592+00:00,4294967296,16777216,full,blake3,12,True,3629.139697,1.1021895914633897,256,warm page cache; unprivileged container did not drop caches,direct,,,
+382,2026-09-26T07:24:00.571836+00:00,4294967296,16777216,streaming,blake3,12,True,6494.193869,0.6159347997130142,256,warm page cache; unprivileged container did not drop caches,direct,,,
+383,2026-09-26T07:24:07.066079+00:00,4294967296,16777216,streaming,blake3,12,True,7156.738424,0.5589138184212613,256,warm page cache; unprivileged container did not drop caches,direct,,,
+384,2026-09-26T07:24:14.219303+00:00,4294967296,16777216,streaming,blake3,12,True,6328.014752,0.6321097779893419,256,warm page cache; unprivileged container did not drop caches,direct,,,
+385,2026-09-26T07:24:30.959019+00:00,4294967296,16777216,full,sha256,1,True,5177.29788,0.7726037969443628,256,warm page cache; unprivileged container did not drop caches,direct,,,
+386,2026-09-26T07:24:36.136370+00:00,4294967296,16777216,full,sha256,1,True,6186.11179,0.64660971799218,256,warm page cache; unprivileged container did not drop caches,direct,,,
+387,2026-09-26T07:24:42.320656+00:00,4294967296,16777216,full,sha256,1,True,6152.455927,0.6501468758916312,256,warm page cache; unprivileged container did not drop caches,direct,,,
+388,2026-09-26T07:24:48.473254+00:00,4294967296,16777216,streaming,sha256,1,True,5410.287036,0.7393323077655654,256,warm page cache; unprivileged container did not drop caches,direct,,,
+389,2026-09-26T07:24:53.883650+00:00,4294967296,16777216,streaming,sha256,1,True,5728.545599,0.6982575124649889,256,warm page cache; unprivileged container did not drop caches,direct,,,
+390,2026-09-26T07:24:59.612279+00:00,4294967296,16777216,streaming,sha256,1,True,9748.148747,0.41033432129674907,256,warm page cache; unprivileged container did not drop caches,direct,,,
+391,2026-09-26T07:25:23.743867+00:00,4294967296,16777216,full,sha256,4,True,4522.104789,0.8845438543861218,256,warm page cache; unprivileged container did not drop caches,direct,,,
+392,2026-09-26T07:25:28.266019+00:00,4294967296,16777216,full,sha256,4,True,5331.657177,0.7502357835862784,256,warm page cache; unprivileged container did not drop caches,direct,,,
+393,2026-09-26T07:25:33.597718+00:00,4294967296,16777216,full,sha256,4,True,4158.390451,0.9619106351684916,256,warm page cache; unprivileged container did not drop caches,direct,,,
+394,2026-09-26T07:25:37.756990+00:00,4294967296,16777216,streaming,sha256,4,True,4253.385966,0.9404272342022394,256,warm page cache; unprivileged container did not drop caches,direct,,,
+395,2026-09-26T07:25:42.008140+00:00,4294967296,16777216,streaming,sha256,4,True,4446.178054,0.899649080945241,256,warm page cache; unprivileged container did not drop caches,direct,,,
+396,2026-09-26T07:25:46.454364+00:00,4294967296,16777216,streaming,sha256,4,True,5713.745113,0.7000662299231968,256,warm page cache; unprivileged container did not drop caches,direct,,,
+397,2026-09-26T07:26:02.305515+00:00,4294967296,16777216,full,sha256,8,True,5439.672172,0.7353384309792558,256,warm page cache; unprivileged container did not drop caches,direct,,,
+398,2026-09-26T07:26:07.745227+00:00,4294967296,16777216,full,sha256,8,True,5773.093983,0.6928693715672705,256,warm page cache; unprivileged container did not drop caches,direct,,,
+399,2026-09-26T07:26:13.515888+00:00,4294967296,16777216,full,sha256,8,True,4293.169367,0.9317126015913826,256,warm page cache; unprivileged container did not drop caches,direct,,,
+400,2026-09-26T07:26:17.809154+00:00,4294967296,16777216,streaming,sha256,8,True,4182.362172,0.9563973265584518,256,warm page cache; unprivileged container did not drop caches,direct,,,
+401,2026-09-26T07:26:21.991617+00:00,4294967296,16777216,streaming,sha256,8,True,5161.212597,0.7750116711574786,256,warm page cache; unprivileged container did not drop caches,direct,,,
+402,2026-09-26T07:26:27.152955+00:00,4294967296,16777216,streaming,sha256,8,True,4455.439273,0.8977790415055221,256,warm page cache; unprivileged container did not drop caches,direct,,,
+403,2026-09-26T07:26:40.869990+00:00,4294967296,16777216,full,sha256,12,True,4876.799217,0.8202101054430185,256,warm page cache; unprivileged container did not drop caches,direct,,,
+404,2026-09-26T07:26:45.746969+00:00,4294967296,16777216,full,sha256,12,True,4824.148317,0.8291619032325867,256,warm page cache; unprivileged container did not drop caches,direct,,,
+405,2026-09-26T07:26:50.571191+00:00,4294967296,16777216,full,sha256,12,True,4168.59757,0.9595553259414292,256,warm page cache; unprivileged container did not drop caches,direct,,,
+406,2026-09-26T07:26:54.739858+00:00,4294967296,16777216,streaming,sha256,12,True,4095.734275,0.9766258578872283,256,warm page cache; unprivileged container did not drop caches,direct,,,
+407,2026-09-26T07:26:58.835629+00:00,4294967296,16777216,streaming,sha256,12,True,4354.875809,0.9185106936306665,256,warm page cache; unprivileged container did not drop caches,direct,,,
+408,2026-09-26T07:27:03.190550+00:00,4294967296,16777216,streaming,sha256,12,True,4479.650506,0.892926801910649,256,warm page cache; unprivileged container did not drop caches,direct,,,
+409,2026-09-26T07:27:07.670356+00:00,4294967296,16777216,sampled-8,blake3,12,True,918.587771,0.13607844992745935,8,warm page cache; unprivileged container did not drop caches,direct,,,
+410,2026-09-26T07:27:08.585554+00:00,4294967296,16777216,sampled-8,blake3,12,True,653.495082,0.19127917476814307,8,warm page cache; unprivileged container did not drop caches,direct,,,
+411,2026-09-26T07:27:09.239101+00:00,4294967296,16777216,sampled-8,blake3,12,True,884.813002,0.14127278839421936,8,warm page cache; unprivileged container did not drop caches,direct,,,
+412,2026-09-26T07:27:10.124063+00:00,4294967296,16777216,sampled-32,blake3,12,True,2699.782517,0.18520010291628983,32,warm page cache; unprivileged container did not drop caches,direct,,,
+413,2026-09-26T07:27:12.824019+00:00,4294967296,16777216,sampled-32,blake3,12,True,2406.803293,0.20774443904668533,32,warm page cache; unprivileged container did not drop caches,direct,,,
+414,2026-09-26T07:27:15.230874+00:00,4294967296,16777216,sampled-32,blake3,12,True,2721.466672,0.18372446193969044,32,warm page cache; unprivileged container did not drop caches,direct,,,
+415,2026-09-26T07:27:17.952521+00:00,4294967296,16777216,sampled-128,blake3,12,True,8621.153814,0.23198750923016534,128,warm page cache; unprivileged container did not drop caches,direct,,,
+416,2026-09-26T07:27:26.573785+00:00,4294967296,16777216,sampled-128,blake3,12,True,10135.649846,0.19732331230733008,128,warm page cache; unprivileged container did not drop caches,direct,,,
+417,2026-09-26T07:27:36.709479+00:00,4294967296,16777216,sampled-128,blake3,12,True,8984.340851,0.22260954177594344,128,warm page cache; unprivileged container did not drop caches,direct,,,
+418,2026-09-26T07:27:45.693607+00:00,4294967296,16777216,cached,blake3,12,True,0.314125,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+419,2026-09-26T07:27:45.693948+00:00,4294967296,16777216,cached,blake3,12,True,0.048504,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+420,2026-09-26T07:27:45.694007+00:00,4294967296,16777216,cached,blake3,12,True,0.029602,,0,warm page cache; unprivileged container did not drop caches,direct,,,
+421,2026-09-26T07:28:06.095347+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,263.337714,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+422,2026-09-26T07:28:06.359205+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,112.75269,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+423,2026-09-26T07:28:06.472182+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,217.532346,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+424,2026-09-26T07:28:06.690027+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,83.590301,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+425,2026-09-26T07:28:06.774001+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,164.986365,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+426,2026-09-26T07:28:06.939295+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,86.745554,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+427,2026-09-26T07:28:07.026468+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,215.148506,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+428,2026-09-26T07:28:07.242029+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,77.116892,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+429,2026-09-26T07:28:07.319376+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,111.846475,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+430,2026-09-26T07:28:07.431597+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,125.2912,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+431,2026-09-26T07:28:07.559350+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,98.255647,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+432,2026-09-26T07:28:07.657945+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,83.217495,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+433,2026-09-26T07:28:07.741536+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,117.761774,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+434,2026-09-26T07:28:07.859794+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,87.911574,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+435,2026-09-26T07:28:07.948164+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,110.840558,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+436,2026-09-26T07:28:08.059374+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,92.528751,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+437,2026-09-26T07:28:08.152695+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,85.94404,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+438,2026-09-26T07:28:08.241758+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,205.655447,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+439,2026-09-26T07:28:08.447616+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,89.392498,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+440,2026-09-26T07:28:08.537739+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,350.550275,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+441,2026-09-26T07:28:08.885839+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,89.041692,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+442,2026-09-26T07:28:08.975298+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,97.353632,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+443,2026-09-26T07:28:09.072862+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,121.381535,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+444,2026-09-26T07:28:09.194593+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,112.75389,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+445,2026-09-26T07:28:09.307534+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,124.191158,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+446,2026-09-26T07:28:09.432131+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,321.721952,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+447,2026-09-26T07:28:09.754721+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,182.584228,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+448,2026-09-26T07:28:09.937653+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,74.440993,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+449,2026-09-26T07:28:10.012446+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,99.51731,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+450,2026-09-26T07:28:10.112201+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,84.251952,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+451,2026-09-26T07:28:10.196798+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,111.606743,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+452,2026-09-26T07:28:10.308810+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,230.832666,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+453,2026-09-26T07:28:10.539984+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,93.515241,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+454,2026-09-26T07:28:10.633838+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,94.630579,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+455,2026-09-26T07:28:10.728786+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,86.399934,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+456,2026-09-26T07:28:10.815570+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,107.933046,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+457,2026-09-26T07:28:10.923681+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,89.160881,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+458,2026-09-26T07:28:11.013139+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,159.844682,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+459,2026-09-26T07:28:11.173414+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,132.260104,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+460,2026-09-26T07:28:11.306705+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,101.741387,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+461,2026-09-26T07:28:11.409576+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,100.304066,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+462,2026-09-26T07:28:11.510266+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,92.916475,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+463,2026-09-26T07:28:11.603619+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,86.930504,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+464,2026-09-26T07:28:11.690916+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,123.679977,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+465,2026-09-26T07:28:11.814767+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,80.234974,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+466,2026-09-26T07:28:11.895661+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,83.100616,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+467,2026-09-26T07:28:11.979369+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,246.331307,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+468,2026-09-26T07:28:12.226148+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,121.314602,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+469,2026-09-26T07:28:12.347819+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,128.188758,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+470,2026-09-26T07:28:12.476404+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,123.750022,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.00797205593005601
+471,2026-09-26T07:28:12.600524+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,466.953356,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+472,2026-09-26T07:28:13.067818+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,463.162424,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+473,2026-09-26T07:28:13.532436+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,579.435085,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+474,2026-09-26T07:28:14.112912+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,451.67223,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+475,2026-09-26T07:28:14.564979+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,583.856321,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+476,2026-09-26T07:28:15.149206+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,505.455674,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+477,2026-09-26T07:28:15.655057+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,958.797318,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+478,2026-09-26T07:28:16.614159+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,484.012297,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+479,2026-09-26T07:28:17.098379+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,585.934477,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+480,2026-09-26T07:28:17.684573+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,390.157005,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+481,2026-09-26T07:28:18.075042+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,499.942566,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+482,2026-09-26T07:28:18.575208+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,744.774429,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+483,2026-09-26T07:28:19.320407+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,629.704659,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+484,2026-09-26T07:28:19.950514+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,810.374362,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+485,2026-09-26T07:28:20.761270+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,588.822447,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+486,2026-09-26T07:28:21.350508+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,576.641702,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+487,2026-09-26T07:28:21.927529+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,408.236479,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+488,2026-09-26T07:28:22.339134+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,473.974452,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+489,2026-09-26T07:28:22.813324+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,464.956459,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+490,2026-09-26T07:28:23.278686+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,466.766078,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+491,2026-09-26T07:28:23.745681+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,617.486121,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+492,2026-09-26T07:28:24.363621+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,403.45713,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+493,2026-09-26T07:28:24.767491+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,505.938279,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+494,2026-09-26T07:28:25.273641+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,444.760645,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+495,2026-09-26T07:28:25.718717+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,667.126771,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+496,2026-09-26T07:28:26.386464+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,496.84763,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+497,2026-09-26T07:28:26.883544+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,649.295683,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+498,2026-09-26T07:28:27.533318+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,650.015876,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+499,2026-09-26T07:28:28.183703+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,430.58313,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+500,2026-09-26T07:28:28.615414+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,677.856748,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+501,2026-09-26T07:28:29.293500+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,413.817379,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+502,2026-09-26T07:28:29.707750+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,408.996461,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+503,2026-09-26T07:28:30.116984+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,528.243057,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+504,2026-09-26T07:28:30.645593+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,537.095792,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+505,2026-09-26T07:28:31.185769+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,488.843703,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+506,2026-09-26T07:28:31.675264+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,520.501764,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+507,2026-09-26T07:28:32.196194+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,852.538453,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+508,2026-09-26T07:28:33.050300+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,792.077956,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+509,2026-09-26T07:28:33.842643+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,504.701753,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+510,2026-09-26T07:28:34.347873+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,925.441473,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+511,2026-09-26T07:28:35.273687+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,651.840471,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+512,2026-09-26T07:28:35.925933+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,652.734633,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+513,2026-09-26T07:28:36.579120+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,773.139196,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+514,2026-09-26T07:28:37.352703+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,591.224062,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+515,2026-09-26T07:28:37.944430+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,457.465372,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+516,2026-09-26T07:28:38.402408+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,393.162605,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+517,2026-09-26T07:28:38.794055+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,547.038792,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+518,2026-09-26T07:28:39.341540+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,483.724596,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+519,2026-09-26T07:28:39.825781+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,556.765868,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+520,2026-09-26T07:28:40.382771+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,471.601954,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.031508924240473246
+521,2026-09-26T07:28:40.854621+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1683.307192,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+522,2026-09-26T07:28:42.538134+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1924.868543,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+523,2026-09-26T07:28:44.463317+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1979.038629,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+524,2026-09-26T07:28:46.442985+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,342.558734,,26,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+525,2026-09-26T07:28:46.785964+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1973.581386,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+526,2026-09-26T07:28:48.760806+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2457.50192,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+527,2026-09-26T07:28:51.219253+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1791.611337,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+528,2026-09-26T07:28:53.011253+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2095.997384,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+529,2026-09-26T07:28:55.107584+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2115.083954,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+530,2026-09-26T07:28:57.223026+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1599.852081,,114,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+531,2026-09-26T07:28:58.823294+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1918.784329,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+532,2026-09-26T07:29:00.742449+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1998.086344,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+533,2026-09-26T07:29:02.740939+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2020.83697,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+534,2026-09-26T07:29:04.762011+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2099.272912,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+535,2026-09-26T07:29:06.861668+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1872.783445,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+536,2026-09-26T07:29:08.734624+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,2426.810874,,119,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+537,2026-09-26T07:29:11.161918+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2686.266842,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+538,2026-09-26T07:29:13.848696+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2193.633274,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+539,2026-09-26T07:29:16.042700+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2180.901999,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+540,2026-09-26T07:29:18.224184+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1844.516603,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+541,2026-09-26T07:29:20.069068+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1632.261399,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+542,2026-09-26T07:29:21.701630+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,408.520255,,27,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+543,2026-09-26T07:29:22.111273+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2231.958859,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+544,2026-09-26T07:29:24.344731+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2119.43289,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+545,2026-09-26T07:29:26.465162+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2061.182016,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+546,2026-09-26T07:29:28.526583+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1729.290074,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+547,2026-09-26T07:29:30.256186+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2051.964308,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+548,2026-09-26T07:29:32.308565+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2732.847926,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+549,2026-09-26T07:29:35.041951+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2409.460299,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+550,2026-09-26T07:29:37.451892+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2178.9786,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+551,2026-09-26T07:29:39.634362+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1782.285652,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+552,2026-09-26T07:29:41.416955+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2050.723704,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+553,2026-09-26T07:29:43.467970+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1680.819115,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+554,2026-09-26T07:29:45.149029+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1906.452241,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+555,2026-09-26T07:29:47.055874+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1925.248553,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+556,2026-09-26T07:29:48.981425+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,233.881263,,16,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+557,2026-09-26T07:29:49.215622+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2205.347768,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+558,2026-09-26T07:29:51.425141+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2205.648789,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+559,2026-09-26T07:29:53.632004+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2225.932442,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+560,2026-09-26T07:29:55.858421+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1951.379972,,95,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+561,2026-09-26T07:29:57.810420+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1561.4192,,82,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+562,2026-09-26T07:29:59.372396+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2298.030538,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+563,2026-09-26T07:30:01.670966+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1923.28185,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+564,2026-09-26T07:30:03.594522+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1902.807172,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+565,2026-09-26T07:30:05.497846+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1697.304469,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+566,2026-09-26T07:30:07.195413+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2330.757933,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+567,2026-09-26T07:30:09.525093+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1760.253648,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+568,2026-09-26T07:30:11.285759+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1948.339497,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+569,2026-09-26T07:30:13.234555+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2088.494042,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+570,2026-09-26T07:30:15.325571+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2083.281477,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.001,0.0009765625,0.12020296723590385
+571,2026-09-26T07:30:17.409856+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,118.242163,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+572,2026-09-26T07:30:17.529682+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,107.448108,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+573,2026-09-26T07:30:17.638351+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,90.390817,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+574,2026-09-26T07:30:17.730091+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,149.227928,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+575,2026-09-26T07:30:17.880294+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,103.701747,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+576,2026-09-26T07:30:17.984954+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,101.366884,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+577,2026-09-26T07:30:18.087698+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,142.421353,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+578,2026-09-26T07:30:18.231454+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,227.026864,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+579,2026-09-26T07:30:18.459918+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,109.963284,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+580,2026-09-26T07:30:18.571334+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,91.194573,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+581,2026-09-26T07:30:18.664022+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,91.557598,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+582,2026-09-26T07:30:18.764552+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,44.284594,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+583,2026-09-26T07:30:18.813548+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,151.761805,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+584,2026-09-26T07:30:18.966423+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,92.810885,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+585,2026-09-26T07:30:19.063979+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,334.790195,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+586,2026-09-26T07:30:19.400419+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,129.439145,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+587,2026-09-26T07:30:19.532125+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,129.098421,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+588,2026-09-26T07:30:19.664548+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,111.078363,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+589,2026-09-26T07:30:19.777401+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,69.284041,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+590,2026-09-26T07:30:19.847787+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,86.875671,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+591,2026-09-26T07:30:19.935716+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,85.234456,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+592,2026-09-26T07:30:20.021951+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,117.448108,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+593,2026-09-26T07:30:20.140509+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,109.895979,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+594,2026-09-26T07:30:20.251934+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,95.642483,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+595,2026-09-26T07:30:20.348964+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,73.341525,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+596,2026-09-26T07:30:20.423532+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,103.17961,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+597,2026-09-26T07:30:20.529759+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,102.189287,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+598,2026-09-26T07:30:20.633265+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,117.060345,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+599,2026-09-26T07:30:20.751585+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,88.101432,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+600,2026-09-26T07:30:20.840749+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,90.101185,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+601,2026-09-26T07:30:20.931973+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,246.312622,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+602,2026-09-26T07:30:21.179761+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,127.560447,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+603,2026-09-26T07:30:21.308320+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,72.838565,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+604,2026-09-26T07:30:21.383280+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,142.171064,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+605,2026-09-26T07:30:21.529721+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,25.222928,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+606,2026-09-26T07:30:21.556046+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,28.92371,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+607,2026-09-26T07:30:21.585747+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,67.853185,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+608,2026-09-26T07:30:21.654559+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,98.101496,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+609,2026-09-26T07:30:21.753870+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,168.217253,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+610,2026-09-26T07:30:21.924446+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,17.033901,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+611,2026-09-26T07:30:21.942987+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,111.952455,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+612,2026-09-26T07:30:22.056580+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,114.010612,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+613,2026-09-26T07:30:22.175670+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,277.4401,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+614,2026-09-26T07:30:22.453845+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,165.887976,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+615,2026-09-26T07:30:22.620671+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,100.389971,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+616,2026-09-26T07:30:22.721799+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,268.269499,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+617,2026-09-26T07:30:22.991524+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,392.784314,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+618,2026-09-26T07:30:23.384943+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,106.622147,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+619,2026-09-26T07:30:23.492757+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,82.17858,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+620,2026-09-26T07:30:23.575790+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,91.934625,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.07725530557207994
+621,2026-09-26T07:30:23.669578+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,889.095538,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+622,2026-09-26T07:30:24.585144+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,442.183088,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+623,2026-09-26T07:30:25.031275+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,678.237026,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+624,2026-09-26T07:30:25.753208+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,266.807487,,23,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+625,2026-09-26T07:30:26.020982+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,175.270593,,15,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+626,2026-09-26T07:30:26.197218+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,437.805254,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+627,2026-09-26T07:30:26.636106+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,458.16801,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+628,2026-09-26T07:30:27.098315+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,639.953,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+629,2026-09-26T07:30:27.739147+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,491.958691,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+630,2026-09-26T07:30:28.231986+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,311.73382,,20,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+631,2026-09-26T07:30:28.544490+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,77.816446,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+632,2026-09-26T07:30:28.623218+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,273.518187,,19,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+633,2026-09-26T07:30:28.897884+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,350.023764,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+634,2026-09-26T07:30:29.248862+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,415.54569,,28,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+635,2026-09-26T07:30:29.665488+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,476.279062,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+636,2026-09-26T07:30:30.142319+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,417.508377,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+637,2026-09-26T07:30:30.560613+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,150.710022,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+638,2026-09-26T07:30:30.713303+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,168.3577,,13,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+639,2026-09-26T07:30:30.882406+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,618.561084,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+640,2026-09-26T07:30:31.502458+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,393.5466,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+641,2026-09-26T07:30:31.898110+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,422.619463,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+642,2026-09-26T07:30:32.328192+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,753.172076,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+643,2026-09-26T07:30:33.082590+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,503.745673,,31,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+644,2026-09-26T07:30:33.587414+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,143.397227,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+645,2026-09-26T07:30:33.731598+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,539.675787,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+646,2026-09-26T07:30:34.272289+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,422.086912,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+647,2026-09-26T07:30:34.695472+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,466.640746,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+648,2026-09-26T07:30:35.164601+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,440.101624,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+649,2026-09-26T07:30:35.605593+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,475.193159,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+650,2026-09-26T07:30:36.081448+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,410.754036,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+651,2026-09-26T07:30:36.493008+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,628.546612,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+652,2026-09-26T07:30:37.122284+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,536.056874,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+653,2026-09-26T07:30:37.659409+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,501.147154,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+654,2026-09-26T07:30:38.161369+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,243.75097,,21,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+655,2026-09-26T07:30:38.409212+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,538.929672,,23,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+656,2026-09-26T07:30:38.950623+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,684.068018,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+657,2026-09-26T07:30:39.635444+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,397.019959,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+658,2026-09-26T07:30:40.033196+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,631.818902,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+659,2026-09-26T07:30:40.666262+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,496.512674,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+660,2026-09-26T07:30:41.163366+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,427.88936,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+661,2026-09-26T07:30:41.592137+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,437.382544,,24,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+662,2026-09-26T07:30:42.030666+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,405.386927,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+663,2026-09-26T07:30:42.436454+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,426.712638,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+664,2026-09-26T07:30:42.864336+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,316.452507,,26,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+665,2026-09-26T07:30:43.181840+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,528.455286,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+666,2026-09-26T07:30:43.711101+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,558.420893,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+667,2026-09-26T07:30:44.270396+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,467.05412,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+668,2026-09-26T07:30:44.738124+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,672.860911,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+669,2026-09-26T07:30:45.412528+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,479.657963,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+670,2026-09-26T07:30:45.892782+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,544.748651,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.2750196640421466
+671,2026-09-26T07:30:46.438380+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,673.822303,,31,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+672,2026-09-26T07:30:47.113307+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,664.697896,,49,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+673,2026-09-26T07:30:47.779924+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2407.220803,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+674,2026-09-26T07:30:50.187900+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1338.324077,,86,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+675,2026-09-26T07:30:51.527706+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,406.53659,,29,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+676,2026-09-26T07:30:51.934748+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,486.380306,,35,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+677,2026-09-26T07:30:52.427147+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,263.99495,,17,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+678,2026-09-26T07:30:52.691878+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,260.139424,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+679,2026-09-26T07:30:52.953348+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,402.852757,,25,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+680,2026-09-26T07:30:53.356940+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,945.048562,,56,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+681,2026-09-26T07:30:54.302805+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,609.597676,,43,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+682,2026-09-26T07:30:54.914740+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,174.040793,,16,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+683,2026-09-26T07:30:55.090047+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2047.421164,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+684,2026-09-26T07:30:57.138579+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,506.298225,,33,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+685,2026-09-26T07:30:57.645474+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2381.422889,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+686,2026-09-26T07:31:00.027533+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1893.91448,,91,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+687,2026-09-26T07:31:01.922047+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1578.19701,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+688,2026-09-26T07:31:03.500884+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,205.33177,,18,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+689,2026-09-26T07:31:03.706913+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2186.23469,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+690,2026-09-26T07:31:05.893805+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,695.4335,,51,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+691,2026-09-26T07:31:06.589929+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2408.827657,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+692,2026-09-26T07:31:08.998035+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2009.475826,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+693,2026-09-26T07:31:11.007931+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,419.350817,,16,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+694,2026-09-26T07:31:11.428144+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1098.476217,,77,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+695,2026-09-26T07:31:12.527693+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1747.020642,,123,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+696,2026-09-26T07:31:14.276135+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,690.92733,,52,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+697,2026-09-26T07:31:14.967797+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,353.743805,,26,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+698,2026-09-26T07:31:15.322455+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,109.380945,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+699,2026-09-26T07:31:15.432951+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1974.081142,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+700,2026-09-26T07:31:17.407626+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,328.009225,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+701,2026-09-26T07:31:17.736391+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1599.981708,,83,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+702,2026-09-26T07:31:19.337978+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1297.664423,,70,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+703,2026-09-26T07:31:20.636194+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1443.763282,,87,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+704,2026-09-26T07:31:22.080617+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,128.753915,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+705,2026-09-26T07:31:22.210166+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1809.027809,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+706,2026-09-26T07:31:24.019904+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,99.914951,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+707,2026-09-26T07:31:24.120193+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2092.521845,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+708,2026-09-26T07:31:26.215560+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2033.975572,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+709,2026-09-26T07:31:28.250499+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1309.439955,,86,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+710,2026-09-26T07:31:29.560631+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1973.260528,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+711,2026-09-26T07:31:31.534884+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,501.180534,,37,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+712,2026-09-26T07:31:32.036608+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,116.442306,,10,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+713,2026-09-26T07:31:32.153592+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,1894.960439,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+714,2026-09-26T07:31:34.050555+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1434.036948,,91,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+715,2026-09-26T07:31:35.485505+00:00,1073741824,1048576,sampled-detection-128,blake3,12,False,2204.619749,,128,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+716,2026-09-26T07:31:37.691118+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,227.163691,,17,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+717,2026-09-26T07:31:37.920214+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,91.993217,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+718,2026-09-26T07:31:38.014389+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,797.595604,,49,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+719,2026-09-26T07:31:38.807582+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1153.901739,,60,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+720,2026-09-26T07:31:39.962173+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,1452.601531,,90,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.01,0.009765625,0.7237483323007917
+721,2026-09-26T07:31:41.420238+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,133.768297,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+722,2026-09-26T07:31:41.571562+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,84.132888,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+723,2026-09-26T07:31:41.660120+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,23.494581,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+724,2026-09-26T07:31:41.687262+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,82.239586,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+725,2026-09-26T07:31:41.774306+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,87.235958,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+726,2026-09-26T07:31:41.865342+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,67.230467,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+727,2026-09-26T07:31:41.936833+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,116.306944,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+728,2026-09-26T07:31:42.056436+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,91.145272,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+729,2026-09-26T07:31:42.151113+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,4.249632,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+730,2026-09-26T07:31:42.158571+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,125.921693,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+731,2026-09-26T07:31:42.287604+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,120.262915,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+732,2026-09-26T07:31:42.431639+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,135.372409,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+733,2026-09-26T07:31:42.582667+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,101.428875,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+734,2026-09-26T07:31:42.688419+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,28.504976,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+735,2026-09-26T07:31:42.723797+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,14.202035,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+736,2026-09-26T07:31:42.742375+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,23.987779,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+737,2026-09-26T07:31:42.770463+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,72.666282,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+738,2026-09-26T07:31:42.860787+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,12.364913,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+739,2026-09-26T07:31:42.879703+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,225.80516,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+740,2026-09-26T07:31:43.109049+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,413.408007,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+741,2026-09-26T07:31:43.525894+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,50.807744,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+742,2026-09-26T07:31:43.580245+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,17.236534,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+743,2026-09-26T07:31:43.605647+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,117.101006,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+744,2026-09-26T07:31:43.729713+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,96.849374,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+745,2026-09-26T07:31:43.831485+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,88.906851,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+746,2026-09-26T07:31:43.932663+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,86.931921,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+747,2026-09-26T07:31:44.022662+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,230.163747,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+748,2026-09-26T07:31:44.256028+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,36.963833,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+749,2026-09-26T07:31:44.296940+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,16.049656,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+750,2026-09-26T07:31:44.316285+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,133.10226,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+751,2026-09-26T07:31:44.451670+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,331.355006,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+752,2026-09-26T07:31:44.785895+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,105.207924,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+753,2026-09-26T07:31:44.894036+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,14.117729,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+754,2026-09-26T07:31:44.912917+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,167.870147,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+755,2026-09-26T07:31:45.082976+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,116.317755,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+756,2026-09-26T07:31:45.204579+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,99.694161,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+757,2026-09-26T07:31:45.306491+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,132.65783,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+758,2026-09-26T07:31:45.443727+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,8.51136,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+759,2026-09-26T07:31:45.454938+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,108.263225,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+760,2026-09-26T07:31:45.565421+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,43.994595,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+761,2026-09-26T07:31:45.613265+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,104.263162,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+762,2026-09-26T07:31:45.719778+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,101.846003,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+763,2026-09-26T07:31:45.824468+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,34.631579,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+764,2026-09-26T07:31:45.863294+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,35.600443,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+765,2026-09-26T07:31:45.901095+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,7.369685,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+766,2026-09-26T07:31:45.913009+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,49.329846,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+767,2026-09-26T07:31:45.964865+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,111.393331,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+768,2026-09-26T07:31:46.088027+00:00,1073741824,1048576,sampled-detection-8,blake3,12,False,78.610673,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+769,2026-09-26T07:31:46.168892+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,12.994956,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+770,2026-09-26T07:31:46.184990+00:00,1073741824,1048576,sampled-detection-8,blake3,12,True,17.005219,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.5695327899999999
+771,2026-09-26T07:31:46.204154+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,90.793475,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+772,2026-09-26T07:31:46.297156+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,20.52575,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+773,2026-09-26T07:31:46.320421+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,169.506655,,13,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+774,2026-09-26T07:31:46.492077+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,98.15656,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+775,2026-09-26T07:31:46.592404+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,230.806789,,19,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+776,2026-09-26T07:31:46.825664+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,162.494094,,11,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+777,2026-09-26T07:31:46.994030+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,21.900541,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+778,2026-09-26T07:31:47.019227+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,31.438069,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+779,2026-09-26T07:31:47.054271+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,70.451836,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+780,2026-09-26T07:31:47.126990+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,83.587701,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+781,2026-09-26T07:31:47.213986+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,109.993439,,10,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+782,2026-09-26T07:31:47.339552+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,55.353943,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+783,2026-09-26T07:31:47.398038+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,115.507101,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+784,2026-09-26T07:31:47.515779+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,22.106055,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+785,2026-09-26T07:31:47.549942+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,262.073147,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+786,2026-09-26T07:31:47.816427+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,621.919229,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+787,2026-09-26T07:31:48.447592+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,101.303667,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+788,2026-09-26T07:31:48.551195+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,14.527356,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+789,2026-09-26T07:31:48.568577+00:00,1073741824,1048576,sampled-detection-32,blake3,12,False,349.253085,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+790,2026-09-26T07:31:48.920294+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,140.527648,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+791,2026-09-26T07:31:49.063065+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,103.751828,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+792,2026-09-26T07:31:49.179567+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,7.614201,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+793,2026-09-26T07:31:49.193967+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,138.588021,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+794,2026-09-26T07:31:49.336005+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,137.529851,,11,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+795,2026-09-26T07:31:49.475759+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,88.580329,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+796,2026-09-26T07:31:49.571768+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,80.387791,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+797,2026-09-26T07:31:49.654367+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,292.868274,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+798,2026-09-26T07:31:49.949867+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,180.791498,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+799,2026-09-26T07:31:50.140227+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,235.078471,,14,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+800,2026-09-26T07:31:50.403603+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,7.031463,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+801,2026-09-26T07:31:50.419649+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,33.27749,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+802,2026-09-26T07:31:50.456521+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,66.875901,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+803,2026-09-26T07:31:50.525618+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,47.276712,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+804,2026-09-26T07:31:50.577987+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,99.234521,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+805,2026-09-26T07:31:50.680784+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,354.828415,,21,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+806,2026-09-26T07:31:51.037976+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,490.119812,,26,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+807,2026-09-26T07:31:51.533966+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,93.469065,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+808,2026-09-26T07:31:51.629893+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,339.450305,,15,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+809,2026-09-26T07:31:51.972007+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,563.198208,,24,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+810,2026-09-26T07:31:52.539693+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,439.391964,,14,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+811,2026-09-26T07:31:52.981426+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,136.300089,,9,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+812,2026-09-26T07:31:53.120884+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,358.590459,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+813,2026-09-26T07:31:53.482262+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,176.080835,,11,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+814,2026-09-26T07:31:53.660570+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,79.77011,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+815,2026-09-26T07:31:53.744898+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,168.067401,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+816,2026-09-26T07:31:53.915247+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,240.111503,,15,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+817,2026-09-26T07:31:54.157495+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,47.25203,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+818,2026-09-26T07:31:54.206984+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,86.487426,,9,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+819,2026-09-26T07:31:54.295742+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,258.336372,,18,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+820,2026-09-26T07:31:54.557113+00:00,1073741824,1048576,sampled-detection-32,blake3,12,True,82.462456,,8,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9656631617970749
+821,2026-09-26T07:31:54.642680+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,12.492445,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+822,2026-09-26T07:31:54.657407+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,898.56464,,44,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+823,2026-09-26T07:31:55.561053+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,23.760277,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+824,2026-09-26T07:31:55.587992+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,80.072338,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+825,2026-09-26T07:31:55.670335+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,54.474392,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+826,2026-09-26T07:31:55.727049+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,162.252668,,17,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+827,2026-09-26T07:31:55.891737+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,21.158839,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+828,2026-09-26T07:31:55.915029+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,170.984068,,15,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+829,2026-09-26T07:31:56.088120+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,28.385101,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+830,2026-09-26T07:31:56.118684+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,27.436314,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+831,2026-09-26T07:31:56.148207+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,86.678143,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+832,2026-09-26T07:31:56.237109+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,120.653256,,10,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+833,2026-09-26T07:31:56.360002+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,237.120429,,14,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+834,2026-09-26T07:31:56.600484+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,604.538897,,44,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+835,2026-09-26T07:31:57.207426+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,23.098316,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+836,2026-09-26T07:31:57.232643+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,65.190674,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+837,2026-09-26T07:31:57.300017+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,19.833018,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+838,2026-09-26T07:31:57.323319+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,69.231944,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+839,2026-09-26T07:31:57.394910+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,63.866252,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+840,2026-09-26T07:31:57.461564+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,154.645371,,9,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+841,2026-09-26T07:31:57.618391+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,95.91789,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+842,2026-09-26T07:31:57.716446+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,7.038545,,1,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+843,2026-09-26T07:31:57.728751+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,390.337669,,22,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+844,2026-09-26T07:31:58.122173+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,209.473995,,11,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+845,2026-09-26T07:31:58.337495+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,87.109982,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+846,2026-09-26T07:31:58.427017+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,132.739663,,9,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+847,2026-09-26T07:31:58.561999+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,13.746159,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+848,2026-09-26T07:31:58.578196+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,81.664783,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+849,2026-09-26T07:31:58.662204+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,22.006917,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+850,2026-09-26T07:31:58.686440+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,185.257245,,11,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+851,2026-09-26T07:31:58.873941+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,30.355168,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+852,2026-09-26T07:31:58.906516+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,88.616553,,7,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+853,2026-09-26T07:31:58.999090+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,220.224692,,19,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+854,2026-09-26T07:31:59.221434+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,60.422296,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+855,2026-09-26T07:31:59.283985+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,21.916354,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+856,2026-09-26T07:31:59.315714+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,249.906164,,15,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+857,2026-09-26T07:31:59.567804+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,34.267731,,2,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+858,2026-09-26T07:31:59.613937+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,72.447026,,6,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+859,2026-09-26T07:31:59.688441+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,135.889156,,13,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+860,2026-09-26T07:31:59.826760+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,596.592355,,32,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+861,2026-09-26T07:32:00.425394+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,100.563172,,5,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+862,2026-09-26T07:32:00.528060+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,66.070508,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+863,2026-09-26T07:32:00.596350+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,160.23926,,12,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+864,2026-09-26T07:32:00.760905+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,63.250302,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+865,2026-09-26T07:32:00.826894+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,905.265275,,38,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+866,2026-09-26T07:32:01.734453+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,34.505666,,4,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+867,2026-09-26T07:32:01.771095+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,141.654685,,10,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+868,2026-09-26T07:32:01.914935+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,468.291291,,19,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+869,2026-09-26T07:32:02.393975+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,886.104818,,27,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+870,2026-09-26T07:32:03.285483+00:00,1073741824,1048576,sampled-detection-128,blake3,12,True,55.720718,,3,warm page cache; direct in-place chunk tamper and sampled verify,direct,0.1,0.099609375,0.9999986099154762
+871,2026-09-26T07:32:08.345535+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,708.340519,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+872,2026-09-26T07:32:09.038262+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,825.868921,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+873,2026-09-26T07:32:09.864412+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,922.165521,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+874,2026-09-26T07:32:10.786861+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,743.423596,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+875,2026-09-26T07:32:11.530479+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,785.610745,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+876,2026-09-26T07:32:12.316363+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,782.412726,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+877,2026-09-26T07:32:13.099039+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,834.072605,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+878,2026-09-26T07:32:13.933339+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,699.939896,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+879,2026-09-26T07:32:14.633506+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,977.486891,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+880,2026-09-26T07:32:15.611193+00:00,1073741824,16777216,full-tamper-detection,blake3,12,True,830.108789,,64,warm page cache; direct in-place chunk tamper and FULL verify,direct,0.015625,,
+881,2026-09-26T07:32:16.493637+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.473347,,0,not applicable,direct,,,
+882,2026-09-26T07:32:16.494155+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.136213,,0,not applicable,direct,,,
+883,2026-09-26T07:32:16.494306+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.113811,,0,not applicable,direct,,,
+884,2026-09-26T07:32:16.494430+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.105811,,0,not applicable,direct,,,
+885,2026-09-26T07:32:16.494545+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.103211,,0,not applicable,direct,,,
+886,2026-09-26T07:32:16.494656+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.102211,,0,not applicable,direct,,,
+887,2026-09-26T07:32:16.494766+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.10081,,0,not applicable,direct,,,
+888,2026-09-26T07:32:16.494875+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09991,,0,not applicable,direct,,,
+889,2026-09-26T07:32:16.494982+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09981,,0,not applicable,direct,,,
+890,2026-09-26T07:32:16.495089+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.098809,,0,not applicable,direct,,,
+891,2026-09-26T07:32:16.495198+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.099909,,0,not applicable,direct,,,
+892,2026-09-26T07:32:16.495350+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.129513,,0,not applicable,direct,,,
+893,2026-09-26T07:32:16.495487+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.10061,,0,not applicable,direct,,,
+894,2026-09-26T07:32:16.495596+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09871,,0,not applicable,direct,,,
+895,2026-09-26T07:32:16.495701+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09921,,0,not applicable,direct,,,
+896,2026-09-26T07:32:16.495808+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09801,,0,not applicable,direct,,,
+897,2026-09-26T07:32:16.495913+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09791,,0,not applicable,direct,,,
+898,2026-09-26T07:32:16.496019+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09871,,0,not applicable,direct,,,
+899,2026-09-26T07:32:16.496125+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09821,,0,not applicable,direct,,,
+900,2026-09-26T07:32:16.496230+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09791,,0,not applicable,direct,,,
+901,2026-09-26T07:32:16.496339+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09881,,0,not applicable,direct,,,
+902,2026-09-26T07:32:16.496445+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09851,,0,not applicable,direct,,,
+903,2026-09-26T07:32:16.496551+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09781,,0,not applicable,direct,,,
+904,2026-09-26T07:32:16.496656+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09901,,0,not applicable,direct,,,
+905,2026-09-26T07:32:16.496763+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09811,,0,not applicable,direct,,,
+906,2026-09-26T07:32:16.496868+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09821,,0,not applicable,direct,,,
+907,2026-09-26T07:32:16.496973+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.10041,,0,not applicable,direct,,,
+908,2026-09-26T07:32:16.497081+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09811,,0,not applicable,direct,,,
+909,2026-09-26T07:32:16.497186+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.096909,,0,not applicable,direct,,,
+910,2026-09-26T07:32:16.497291+00:00,96,0,signature-verify,ecdsa-p256-sha256,0,True,0.09871,,0,not applicable,direct,,,

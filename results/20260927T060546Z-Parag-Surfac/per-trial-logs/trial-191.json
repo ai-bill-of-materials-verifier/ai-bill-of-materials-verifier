@@ -1,0 +1,1 @@
+{"alg":"sha256","checked_chunks":1,"chunk_size":16777216,"elapsed_ms":76.2495,"measurement_kind":"direct","mode":"incremental-1-chunk","ok":true,"page_cache":"warm page cache; unprivileged container did not drop caches","size_bytes":1073741824,"thread_count":12,"throughput_gbps":0.20491937652050177,"timestamp_utc":"2026-09-27T06:13:38.792737+00:00","trial":191}

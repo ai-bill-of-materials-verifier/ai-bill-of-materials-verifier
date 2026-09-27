@@ -1,0 +1,1 @@
+{"alg":"blake3","checked_chunks":64,"chunk_size":16777216,"elapsed_ms":3962.062811,"measurement_kind":"direct","mode":"full","ok":true,"page_cache":"warm page cache; unprivileged container did not drop caches","size_bytes":1073741824,"thread_count":1,"throughput_gbps":0.2523937776109123,"timestamp_utc":"2026-09-26T07:13:40.195019+00:00","trial":202}
